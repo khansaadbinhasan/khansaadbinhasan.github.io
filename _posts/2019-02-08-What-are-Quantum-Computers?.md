@@ -14,7 +14,7 @@ Most people know what a computer is but it is very hard for them to define it. I
 >_A computer is a device that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster._
 
 
-{% include image.html url="{{ site.baseurl }}/images/DifferenceEngine.jpeg" description="Babbage's Differential engine(designed in 1822) constructed around 1990-[source](http://computersupportservicesnj.com/1822-babbage-designs-a-mechanical-computer/)" %}
+{% include image.html url="{{ site.baseurl }}/images/DifferenceEngine.jpeg" description="Babbage's Differential engine(designed in 1822) constructed around 1990- [source](http://computersupportservicesnj.com/1822-babbage-designs-a-mechanical-computer/)" %}
 
 <!-- [<img src="{{ site.baseurl }}/images/DifferenceEngine.jpeg" alt="Image 
 showing Babbage difference engine" style="width: 750px;"/>]({{ site.baseurl }}/)
