@@ -18,9 +18,9 @@ Most people know what a computer is but it is very hard for them to define it. I
 
 [source](http://computersupportservicesnj.com/1822-babbage-designs-a-mechanical-computer/) -->
 
-[<img src="{{ site.baseurl }}/images/DifferenceEngine.jpeg" alt="Image 
+<!-- [<img src="{{ site.baseurl }}/images/DifferenceEngine.jpeg" alt="Image 
 showing Babbage difference engine" style="width: 750px;"/>]({{ site.baseurl }}/)
-
+ -->
 <!-- ![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title") -->
 
 
@@ -32,18 +32,18 @@ Although the journey for the modern computer starts somewhere in the twentieth c
 The focus then shifted to Electro-Mechanical computers and wires and mercury were used with punch cards and IBM(International Business Machines) came into existence, the computers became better and better and could now perform very complex calculations, this was further accelerated by the twin world wars where computers were needed by military to gain strategic advantage. But these were still not enough to quench the thirst for ever increasing demand of computation and hence computers got bigger and bigger. Larger computers meant more complex structures and it became increasingly difficult to manage them.(fun fact: It was at this time when bugs would fly into these computers causing issues in the results, hence the use of the word bugs in modern computer science).
 
 
-[<img src="{{ site.baseurl }}/images/Bombe.jpg" alt="Image 
+<!-- [<img src="{{ site.baseurl }}/images/Bombe.jpg" alt="Image 
 showing Bombe Machine used in WWII" style="width: 750px;"/>]({{ site.baseurl }}/images/Bombe.jpg)
-
+ -->
 
 This all changed with the introduction of electronic transistors and now the computer started shrinking, their potential was now known and a great amount of fierce competition(coupled with a lot of scifi) lead to the development of smaller and smaller computers all thanks to shrinking transistor sizes. This was noticed by everyone but Gordon Moore quantized this and made the observation that "The number of transistors on a dense integrated circuit doubles every two years".
 
 Moore's law as it came to be called held true for many years(and still does unless you are reading after 2020) but here is a problem with Moore's law: Transistors can't keep shrinking they are bound to hit that spot where quantum effects come into the picture and when quantum physics come into the picture there is a large amount of uncertainty associated(get it!). Computers need to be dead certain about the answer, else computers will be useless. [from wikipedia](ttps://en.wikipedia.org/wiki/Moore%27s_law)
 
 
-[<img src="{{ site.baseurl }}/images/MooresLaw.jpg" alt="Image 
+<!-- [<img src="{{ site.baseurl }}/images/MooresLaw.jpg" alt="Image 
 showing Graph for Moores law" style="width: 750px;"/>]({{ site.baseurl }}/)
-
+ -->
 
 >_Moore's law is the observation that the number of transistors in a dense integrated circuit doubles about every two years. The observation is named after Gordon Moore, the co-founder of Fairchild Semiconductor and CEO of Intel, whose 1965 paper described a doubling every year in the number of components per integrated circuit, and projected this rate of growth would continue for at least another decade. In 1975, looking forward to the next decade, he revised the forecast to doubling every two years. The period is often quoted as 18 months because of a prediction by Intel executive David House (being a combination of the effect of more transistors and the transistors being faster)._   
 
