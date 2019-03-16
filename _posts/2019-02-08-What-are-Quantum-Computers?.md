@@ -27,10 +27,7 @@ showing Babbage difference engine" style="width: 750px;"/>]({{ site.baseurl }}/)
 
 Although the journey for the modern computer starts somewhere in the twentieth century, a need for such a machine was felt way back in the 19th century and great inventors/scientists tried their hands on [building such a machine](https://en.wikipedia.org/wiki/Difference_engine). Mechanical computers were designed at that time(most famously by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage)) and first programs were written by many people including [lady Ada Lovelace](http://mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer). But some computers were only conceived in designs as they were far beyond the reach of the technology at that time and were very costly and we would be better off using humans instead. Babbage's computer was constructed in the 1990s by History Museum in Mountain View, California, USA, Here is a [good video](https://www.youtube.com/watch?v=BlbQsKpq3Ak&t=1279s) that shows the actual difference engine designed by Babbage.
 
-
-
 The focus then shifted to Electro-Mechanical computers and wires and mercury were used with punch cards and IBM(International Business Machines) came into existence, the computers became better and better and could now perform very complex calculations, this was further accelerated by the twin world wars where computers were needed by military to gain strategic advantage. But these were still not enough to quench the thirst for ever increasing demand of computation and hence computers got bigger and bigger. Larger computers meant more complex structures and it became increasingly difficult to manage them.(fun fact: It was at this time when bugs would fly into these computers causing issues in the results, hence the use of the word bugs in modern computer science).
-
 
 <!-- [<img src="{{ site.baseurl }}/images/Bombe.jpg" alt="Image 
 showing Bombe Machine used in WWII" style="width: 750px;"/>]({{ site.baseurl }}/images/Bombe.jpg)
@@ -57,17 +54,16 @@ The above information(and many other things) can be found in a more detailed and
 
 Quantum computers are not here to replace classical computing, that is not what they are meant for, they are pretty different from classical computers and have their own style of functioning. They may never be able to beat normal computers at most of the problems we solve with classical computers. Then why are they needed?
 
-The reason is that quantum computers are here to solve some bigger problems and not for watching cat videos on the internet(_sigh_). Quantum computers can be used to solve problems that will be unsolvable by classical computers. Problems like Travelling Salesman problem where the paths required to traverse increase exponentially and problems where a quantum solution is needed like quantum modelling. Actually one of the first applications for which quantum computers were conceived(by the great Richard Feinmann) was to study quantum particles. Since if we can model a quantum particle mathematically and then create its simulation in the computer, then we can perform all sort of experiment on them which would be impossible otherwise.
+The reason is that quantum computers are here to solve some bigger problems and not for watching cat videos on the internet(_sigh_). Quantum computers can be used to solve problems that will be unsolvable by classical computers. Problems like .... and problems where a quantum solution is needed like quantum modelling. Actually one of the first applications for which quantum computers were conceived(by the great Richard Feinmann) was to study quantum particles. Since, if we can model a quantum particle mathematically and then create its simulation in the computer, then we can perform all sort of experiment on them which would be impossible otherwise.
 
-So what are these problems? And why can't our normal computers help in this? Imagine you want to send the number 7 to your friend but you don't want any person in the middle to know that this was the number you sent. One of the ways of doing this is to send the number 35 ....
+.....
+So what are these problems? And why can't our normal computers help in this? 
+give examples of some problems that a quantum computer can solve? what are BQP problems? Give how these algorithms will be applicable? 
 
-Now, Imagine a travelling salesman who wants to optimize his trip and go to all the houses in a city, ....
+The above problems define a class of problems known as .... these problems and similar problems are not solvable by classical computers but these problems need to be solved, ... . This can be done with the help of quantum computers. 
+.....
 
-The above problems define a class of problems known as .... these problems and similar problems are not solvable by classical computers but these problems need to be solved, Now Imagine if we could try all the numbers at once and take only the best one and hence break the code or travel along all possible paths at once and find the best possible route at once. This can be done with the help of quantum computers. The principles of quantum mechanics(on which quantum computers are based) do not follow the rules of physics we are so used to in our everyday life, but there are many unexplained phenomenon, particles can occur in many states at once and can affect each other at a distance as we shall see in the next section. Hence these problems can only be solved with quantum computers.
-
-But the inception of the idea of quantum computers was not done for breaking cryptography(which may not be possible after all as we shall see in coming blogs), but it was conceived for more noble applications. One of the greatest physicist of the 20th century aka Richard Feinmann proposed the idea in a conference in 1982 that to model a quantum mechanical system we need a computer that works on the principle of quantum mechanics, this can then be used to conduct experiments on the quantum level.  
-
-To understand computers, we first look at the stuff that its made of i.e, silicon and then we build from it ground up from diodes to gates to more complex architectures that can perform more complex calculations and then we put a layer of abstraction on it, to write programs for it to instruct it to do tasks we want it to perform, we shall take a similar approach to understanding the internal working of a quantum computer. But before we do that, we need to understand some of the strange physics that quantum computers make use of.
+To understand computers, we first look at the stuff that its made of i.e, silicon and then we build from it ground up from diodes to gates to registers to more complex architectures like ALUs and CPUs that can perform more complex calculations and then we put a layer of abstraction on it, to write programs for it, to instruct it to do tasks we want it to perform, we shall take a similar approach to understanding the internal working of a quantum computer. But before we do that, we need to understand some of the strange physics that quantum computers make use of.
 
 ### Prerequisite physics
 
@@ -77,27 +73,21 @@ Quantum physics is an extremely huge and interesting subject in its own, but to 
 
 >_ It states that, much like waves in classical physics, any two (or more) quantum states can be added together ("superposed") and the result will be another valid quantum state; and conversely, that every quantum state can be represented as a sum of two or more other distinct states. Mathematically, it refers to a property of solutions to the Schrödinger equation; since the Schrödinger equation is linear, any linear combination of solutions will also be a solution._
 
-Here is a more mathematical explanation of quantum superposition from [Dirac's](link/to/dirac) book:
+Here is a more mathematical explanation of quantum superposition from [Dirac's](https://en.wikipedia.org/wiki/Paul_Dirac) book:
 
-1. Consider the superposition of two states, A and B, which on observation give results a and b.[4]
+1. Consider the superposition of two states, A and B, which on observation give results a and b.[1]
 
-2. The observation made on system in superposed state will be sometimes a and sometimes b, according to a probability law depending on the relative weights of A and B in the superposition process.[4]
+2. The observation made on system in superposed state will be sometimes a and sometimes b, according to a probability law depending on the relative weights of A and B in the superposition process.[1]
 
-To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a great video that explains quantum superposition
-
-Even though quantum superposition is a strictly quantum phenomenon we can observe how it may work. An experiment was conducted by researchers at ..... in which they placed an oil droplet on acetone and the following pattern was observed. Many scientist believe that this is how quantum superposition works and it seems like a good way to visualize quantum superposition, please take a look at this video to get a better understanding of pilot waves.
-
-pilotwave.gif 
+To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a [great video](https://www.youtube.com/watch?v=hkmoZ8e5Qn0) that explains quantum superposition
 
 
-*Quantum Entanglement* is one of the most fascinating and fiercely debated quantum phenomenon, It is one of the reasons that Einstein was skeptical of Quantum physics and led him to call it "spooky action at a distance".
+*Quantum Entanglement* is one of the most fascinating quantum phenomenon, It is one of the reasons that Einstein was skeptical of Quantum mechanics and led him to call it "spooky action at a distance".
 
 Einstein_quote_entanglement.png
 Einstein_quote_Quantum_Physics.png
 
-So what is quantum entanglement and why is there so much fascination around it? 
-
-Lets say you have only one nucleus in a universe, now this nucleus emits some particle, say an electron then a positron must also be emitted(since particles are generated in pairs), now let us consider there angular momentum, the sum of their angular momentum should be zero, let us say they are then seperated by a very large distance, again their angular momentum sum should be zero(since angular momentum is conserved), so for example if an electron is in up direction, then the positron should be in the opposite direction. Now let us consider that we measure the spin of electron and find that it is in up direction then the spin of positron must be in down direction(conservation of angular momentum), So we know about the state of a particle that may be thousands(or millions) of light years away just by looking at a particle in front of us. Now this is weird, since these particles are seperated by such a large distance there is little chance that they are communication to each other with the help of light(since if they did, how would they be able to communicate faster than light?) this suggests that these particles are somehow contacting each other with the help of some unknown passage(hypothetically) or they are communicating with something faster than light(which is not possible because physics).
+Lets say you have two particles in an isolated universe created out of energy, now let us consider their angular momentum, the sum of their angular momentum should be constant, let us say they are then seperated by a very large distance, again their angular momentum sum should be the same(since angular momentum is conserved), so for example if a particle is in up direction, then the other particle should be in the opposite direction. Now let us consider that we measure the spin of electron and find that it is in up direction then the spin of other particle must be in down direction(conservation of angular momentum), So we know about the state of a particle that may be thousands(or millions) of light years away just by looking at a particle in front of us. Now this is weird, since these particles are seperated by such a large distance there is little chance that they are communication to each other with the help of light(since if they did, how would they be able to communicate faster than light?) this suggests that these particles are somehow contacting each other with the help of some unknown passage(hypothetically) or they are communicating with something faster than light(which is not possible because physics).
 
 
 I find the above thought experiment quite useful in understanding why quantum entanglement is so weird, But here is a more formal definition for quantum entanglement:
@@ -187,3 +177,6 @@ That guy say that quantum internet will be around in 13 yrs, china is quite fast
 
 [great video](https://www.youtube.com/watch?v=F8U1d2Hqark)
 [computer history](https://www.computerhistory.org/timeline/1950/)
+
+
+[1]  P.A.M. Dirac (1947). The Principles of Quantum Mechanics (2nd edition). Clarendon Press. p. 12. 
