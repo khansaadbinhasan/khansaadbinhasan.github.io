@@ -1,6 +1,6 @@
 ---
 layout: post
-title: History of Quantum Computers?
+title: Understanding Quantum Computers
 ---
 
 Even though it is not necessary to go over the classical computers to understand how quantum computers work, but it is quite interesting how computers evolved and how there are so many misconception around quantum computers, I find it necessary to go over how classical computers became what they are today and how they have little to do with quantum computers. 
@@ -35,12 +35,8 @@ Quantum computers are not here to replace classical computing, that is not what 
 
 The reason is that quantum computers are here to solve some bigger problems and not for watching cat videos on the internet(_sigh_). Quantum computers can be used to solve problems that will be unsolvable by classical computers. Problems like .... and problems where a quantum solution is needed like quantum modelling. Actually one of the first applications for which quantum computers were conceived(by the great Richard Feinmann) was to study quantum particles. Since, if we can model a quantum particle mathematically and then create its simulation in the computer, then we can perform all sort of experiment on them which would be impossible otherwise.
 
-.....
 So what are these problems? And why can't our normal computers help in this? 
-give examples of some problems that a quantum computer can solve? what are BQP problems? Give how these algorithms will be applicable? 
-
-The above problems define a class of problems known as .... these problems and similar problems are not solvable by classical computers but these problems need to be solved, .... This can be done with the help of quantum computers. 
-.....
+There are some problems that need extremely large computation space e.g, finding factors of very huge prime numbers, simulating molecules, simulating quantum phenomenons etc. In computer science we divide problems into different classes, depending on how they grow(i.e, how many computations are needed) as we increase the number of input values. These are called polynomial time, nondeterministic-polynomial time and np hard problems. NP problems can be solved by classical computers for very small number of inputs but for large values of N the time taken for computation becomes very large and hence computation becomes infeasible. But there are some problems that are in NP class but can still be solved in finite amount of time by a quantum computer. These problems are called **B**ounded-error **Q**uantum **P**olynomial time problems. These include factoring prime numbers(shor's algorithm) or searching through a list of numbers(grover's algorithm) but till now these kinds of problems are limited and you will be better off solving these problems on a classical computer rather than a quantum computer. But some problems(like prime factorization for large numbers) can only be solved by quantum computers(very powerful ones though).
 
 To understand computers, we first look at the stuff that its made of i.e, silicon and then we build from it ground up from diodes to gates to registers to more complex architectures like ALUs and CPUs that can perform more complex calculations and then we put a layer of abstraction on it, to write programs for it, to instruct it to do tasks we want it to perform, we shall take a similar approach to understanding the internal working of a quantum computer. But before we do that, we need to understand some of the strange physics that quantum computers make use of.
 
@@ -58,7 +54,7 @@ Here is a more mathematical explanation of quantum superposition from [Dirac's](
 
 2. The observation made on system in superposed state will be sometimes a and sometimes b, according to a probability law depending on the relative weights of A and B in the superposition process.[1]
 
-To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a [great video](https://www.youtube.com/watch?v=hkmoZ8e5Qn0) that explains quantum superposition
+To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a [great video](https://www.youtube.com/watch?v=hkmoZ8e5Qn0) that explains quantum superposition or look at this [question](https://www.quora.com/Do-quantum-objects-actually-exist-in-multiple-states-at-once-when-unobserved-or-is-this-some-analogy-of-some-kind) to further clear your understanding
 
 
 **Quantum Entanglement** is one of the most fascinating quantum phenomenon, It is one of the reasons that Einstein was skeptical of Quantum mechanics and led him to call it "spooky action at a distance".
@@ -75,58 +71,37 @@ I find the above thought experiment quite useful in understanding why quantum en
 
 Einstein_Sun_light_Gravity.png
 
-Quantum entanglement has been demonstrated experimentally with photons, neutrinos, electrons, molecules as large as buckyballs, and even small diamonds. The utilization of entanglement in communication and computation is a very active area of research. 
+Quantum entanglement has been demonstrated experimentally with photons, neutrinos, electrons, molecules as large as buckyballs, and even small diamonds. The utilization of entanglement in communication and computation is a very active area of research. Here is a [good video](https://www.youtube.com/watch?time_continue=99&v=IOYyCHGWJq4) that explains both quantum entanglement and quantum superposition clearly.
 
-Even though quantum entanglement seems strange it still works and that is what matters when it comes to quantum computers, There have been many experiments that prove that quantum entanglement does exist and a chinese satellite (called Micius) was sent in 2011 to facilitate communication using quantum entanglement, and a [video conference call](https://www.sciencenews.org/article/quantum-video-chat-links-scientists-two-different-continents) was conducted in 2017.With the above information in mind we can now proceed further to understand how the internal of quantum computers work. We will start with information storage and retreival and see how computations may be performed using quantum effects, We then see how these tools are put together to make quantum logic gates, these gates can then be combined to perform even more complex calculations. We can then put layers of abstraction and finally arrive at the final model of a quantum computer.
+Even though quantum entanglement seems strange it still works and that is what matters when it comes to quantum computers, There have been many experiments that prove that quantum entanglement does exist and a chinese satellite (called Micius) was sent in 2011 to facilitate communication using quantum entanglement, and a [video conference call](https://www.sciencenews.org/article/quantum-video-chat-links-scientists-two-different-continents) was conducted in 2017. With the above information in mind we can now proceed further to understand how the internal of quantum computers work. We will start with information storage and retreival and see how computations may be performed using quantum effects, We then see how these tools are put together to make quantum logic gates, these gates can then be combined to perform even more complex calculations. We can then put layers of abstraction and finally arrive at the final model of a quantum computer.
 
 ### Qubits
 
-In classical computers the information is stored in the form of bits, These **bi**nary digi**ts** can represent 0 or 1 states, We have developed quite sophisticated system just by using this simple form of storage but we can still do a lot better with a **Qu**antum **bit**, Unlike bits which can only store 0s and 1s qubits can store a third and very important state that is the superposition of 0 and 1. This superposition of states is what helps a quantum computers do things that a classical computer may not be able to do. When a qubit is in one of the superposition states, it can be said to be in both 0 and 1 states at the same time but this is hardly the case. For example consider you move 3m North and then 4m West, now you are 5m in the North-West Direction or you are in a superposition of North and West. To put it another way- "You are in north and west at the same time!", It doesn't sound so delicious anymore does it? The same is with superposition of quantum states, Even though a qubit is not in any of 1 or 0 state but it is in say 60% 1 state and 40% 0 state, Hence it is in the superposition of two states at once?
+In classical computers the information is stored in the form of bits, These **bi**nary digi**ts** can represent 0 or 1 states, We have developed quite sophisticated system just by using this simple form of storage but we can still do a lot better with a **Qu**antum **bit**, Unlike bits which can only store 0s and 1s qubits can store a third and very important state that is the superposition of 0 and 1. This superposition of states is what helps a quantum computers do things that a classical computer may not be able to do. When a qubit is in one of the superposition states, it can be said to be in both 0 and 1 states at the same time but this is hardly the case. For example consider you move 3m North and then 4m West, now you are 5m in the North-West Direction or you are in a superposition of North and West. To put it another way- "You are in north and west at the same time!", It doesn't sound so delicious anymore does it? The same is with superposition of quantum states, Even though a qubit is not in any of 1 or 0 state but it is in say 60% 1 state and 40% 0 state, Hence it is in the superposition of two states at once.
 
-Why does it matter that a qubit is in a superposition of two states though?
+Here is a good answer that explains [how qubits can hold both 0 and 1 at the same time?](https://www.quora.com/How-can-a-qubit-hold-0-and-1-at-same-time)
 
-A Qubit is generally made up of silicon and phosphorus and sometimes of photon! People are also trying to exploit the spins of nuclei to make qubits  
+A Qubit is generally made up of silicon and phosphorus and sometimes of photon! People are also trying to exploit the spins of nuclei to make qubits.
+But what makes a qubit special from a classical bit? The answer lies in the principle of quantum superposition. Let us consider and example- 
 
-But what makes a qubit special from a classical bit? The answer lies in the principle of quantum superposition. Let us consider and example- Lets say you have two bits now they can be either 00, 01, 10, 11 i.e, they can be in one of four states. Now consider two qubits, they can be (up,up), (down,down), (up,down) + (down,up) OR (down,up) - (up,down) {where + and - represent either coherent or decoherent superposition} as shown in figure. Now assume that the probability of each of the above states is given by alpha, beta, gamma, delta. Now here is the fun part- The Qubit is not in one of these states but in a superposition of these states. i.e, its state is alpha\*(up,up) + beta\*()....... Hence if we perform a calculation now, we will in effect be performing the calculation on all these states simultaneouly instead of each state individually, leading to remarkable improvements in performance of certain algorithms.
+Lets say you have two bits now they can be either `00, 01, 10, 11` i.e, they can be in one of four states. Now consider two qubits, they can be- 
+`(up,up), (down,down), (up,down) + (down,up) OR (down,up) - (up,down)` {where + and - represent either coherent or decoherent superposition} as shown in figure. Now assume that the probability of each of the above states is given by alpha, beta, gamma, delta. Now here is the fun part- The Qubit is not in one of these states but in a superposition of these states. i.e, its state is `Alpha\*(up,up) + Beta\*((down,up)-(up,down)) + Gamma\*((down,up)+(up,down)) + Delta\*(up,up)` Hence, if we perform a calculation now, we will in effect be performing the calculation on all these states simultaneouly instead of each state individually, leading to remarkable improvements in performance of certain algorithms.
 
 veritasium_image.png
 
-One of the most impressive things about qubits is that, it doesn't take much to increase the computation power. So for example you wanted to double the computation power of the above system to represent 8-states, Now to do this we can only add one more qubit resulting in the doubling of the number of represented states. Now lets say we need to represent the above system with classical bits, to do this we would need four individual states(composed of bits), now two double it i.e, represent 8-states we need double the states i.e, 4 more representations. So, in order to double the computation power of a classical computer we would need to double its size. But it is impractical with- say a supercomputer which are already huge. But with quantum computers you can get away by only adding one qubit.
+One of the most impressive things about qubits is that, it doesn't take much to increase the computation power. So for example you wanted to double the computation power of the above system to represent 8-states, Now to do this we can only add one more qubit resulting in the doubling of the number of represented states. Now lets say we need to represent the above system with classical bits, to do this we would need four individual states(composed of bits), now to double it i.e, represent 8-states we need double the states i.e, 4 more representations. So, in order to double the computation power of a classical computer we would need to double its size. But it is impractical with- say supercomputers which are already huge. But with quantum computers you can get away by only adding one qubit.
 
-Even though, in principle we can perform these operations simultaneously, it is not possible for us to measure these states, since superposition breaks as soon as we measure the states. Hence in effect we can only get one answer and if we measure a qubit we are most likely to end up with a random answer which is not going to be useful. To counter this, we devise algorithms in such a way that the wrong states interfere and cancel each other while the right answer is promoted by interference. And in the end we are left with only the right answer. This can be done by <name the algo> 
+Even though, in principle we can perform these operations simultaneously, it is not possible for us to measure these states, since superposition breaks as soon as we measure the states. Hence, in effect we can only get one answer and if we measure a qubit we are most likely to end up with a random answer which is not going to be useful. To counter this, we devise algorithms in such a way that the wrong states interfere and cancel each other while the right answer is promoted by interference(as is done in shor's algorithm). And in the end we are left with only the right answer. This can be done by [Quantum Fourier Transform](https://en.wikipedia.org/wiki/Quantum_Fourier_transform). Here is a [great video](https://www.youtube.com/watch?v=wUwZZaI5u0c) to understand how quantum algorithms work.
 
-Bloch_sphere.jpg
-
-Quantum computers can be represented by a bloch sphere- A bloch sphere is a sphere that can represent the superposition of states(give more formal def). The north pole on a bloch sphere represents a 0 while the south pole represents a 1. Any intermediate point on the sphere represents a superposition of states- ....give equations..... 
 
 
 ### Information Storage and Retreival
 
-One of the most important things that a computing machine does is reading and writing data(since if it is possible it can do anything refer to turing machine). Let us understand how a quantum computer reads and writes data.
+One of the most important things that a computing machine does is reading and writing data since if it is possible it can do anything as shown by [Alan Turing](https://en.wikipedia.org/wiki/Turing_machine). The concept of Turing Machine has been taken further for Quantum Computers and [Quantum Turing Machines](https://en.wikipedia.org/wiki/Quantum_Turing_machine) have been proposed. Let us understand how a quantum computer reads and writes data.
 
-Qubits are embedded in transistors, now all qubits have energy lets say we have an electron in down state, then it will have low energy, now with a precise microwave(precise means at the right place with the right frequency) we can give that electron enough energy to make it spin in the up direction. This will result in a change of voltage in the transistor and we can now say on the base of it, that it has indeed increased .Hence we have changed the state of a qubit from 0 to 1 and we have now successfully written to a qubit. 
+Qubits are embedded among transistors, now all qubits have energy, lets say we have an electron in down state, then it will have low energy, now with a precise microwave(precise means at the right place with the right frequency) we can give that electron enough energy to make it spin in the up direction. This will result in a change of voltage in the transistor and we can now say on the base of it, that it has indeed increased. Hence we have changed the state of a qubit from 0 to 1 and we have now successfully written to a qubit. 
 
-that_transistor.jpg
-
-Reading from a qubit is similar but we have to keep in mind that it is not so easy, We cannot just have a good microwave generator and read/write from/into qubits. Since at room temperature, there is too much energy for a quantum particle and it will generate random patterns, but we need very precise patterns, so we need to cool the substance down to almost zero kelvin so we can record the qubit data.
-
-### Quantum logic
-
-Now we have a good enough picture about the physics behind the quantum computers and the physical structure of a quantum computer. We are now ready to move ahead with quantum logic. We will not be further considering the physical model but instead in this section we shall develop what are know as quantum logic gates. These logic gates can perform operations on qubit states and are a very good model to hide unnecessary details while writing programs for quantum computers.
-
-There are many gates available for quantum computers such as give, names, of, gates. But as in the case of classical computers we only need a few universal gates that can represent all the other gates(for classical computers we have NAND/NOR gates). In quantum computers these gates are Hadamard gate, Toffoli gate and CNOT gate. Before we look at these gates, it is important to note that quantum gates are reversible i.e, you can get the output from the input and the input from the output. There aren't any gates that are reversible in case of classical computers except NOT gate. So for example- we have a 1 as input then we get 0 as the output, and if we have a 0 as the output we know that 1 must be the input. 
-
-Explain CNOT gate
-CNOT_gate.png
-CNOT_gate_table.png
-
-Explain Hadamard gate
-Hadamard_gate.png
-Hadamard_gate_table.png
-
-Explain Toffoli gate
-Toffoli_gate.png
-Toffoli_gate_table.png
+Reading from a qubit is similar but we have to keep in mind that it is not so easy, We cannot just have a good microwave generator and read/write from/into qubits. Since at room temperature, there is too much energy for a quantum particle and it will generate random patterns, but we need very precise patterns, so we need to cool the substance down to almost zero kelvin so we can record the qubit data. Here is a [link to a great video by veritasium](https://www.youtube.com/watch?v=zNzzGgr2mhk&list=PLkahZjV5wKe_dajngssVLffaCh2gbq55_&index=6) that illustrate the above in great detail
 
 
 ### The Big Picture
@@ -135,27 +110,34 @@ With the above knowledge of the internal workings of quantum computers, we can c
 
 that_architecture.png
 
-As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed it.
+As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed is.
 
 
 ### Challenges and Shortcomings
 
 Quantum computers are very prone to error. Indeed, we never get accurate result from a quantum computers, We get right results sometime and sometimes wrong results, when we get more right results than wrong we say that our quantum computer is giving us good answers. Quantum error correction is a field in itself. It is very essential to decrease the uncertainty in results, since only after that we would be able to make quantum computers usable.
 
-Quantum decoherence is when we combine too many qubits together and they start interfering with each other
+One more problem with quantum computers is that once you observe a state it loses all its information since it has to collapse to only one state. Now, observation does not mean observation by humans, it means any interaction with the quantum particles that may lead to exchange of photons. Now this can be done by interaction with almost anything, this is known as **quantum decoherence**. Here is a more formal definition-
 
+>_Quantum decoherence is the loss of quantum coherence. In quantum mechanics, particles such as electrons are described by a wave function, a mathematical representation of the quantum state of a system; a probabilistic interpretation of the wave function is used to explain various quantum effects. As long as there exists a definite phase relation between different states, the system is said to be coherent. Coherence is preserved under the laws of quantum physics, and this is necessary for the functioning of quantum computers. However, when a quantum system is not perfectly isolated (in which case it would be impossible to manipulate or investigate it), coherence is shared with the environment and appears to be lost with time, a process called quantum decoherence. As a result of this process, quantum behavior is apparently lost, just as energy appears to be lost by friction in classical mechanics._
+
+To overcome decoherence we need very sophisticated and very well insulated(even from waves(signals) present in the air) systems to protect qubits from any external effects. 
 
 ### The Road ahead
 
 Even though quantum computers provide us with a great perspective, there is a lot of false hype around them, there are some conspiracy theories that see quantum computers as a passage to other dimensions(lol!!!), This hype is natural given any new technology and the quantity of science fiction concentrated around quantum physics. But we need to be realistic about quantum computers, since we do not even know whether we would ever have quantum computers that can be used. It is very difficult to increase the number of qubits in quantum computers due to decoherence, and even though the quality of bits has gone up in the past decade, there is still a great need of research and focus on quantum computers and the need to educate people before we can expect some results from quantum computers.
 
-Most of the quantum computer research has been focussed around breaking cryptography, this is due to Shor's algorithm, but it is unrealistic to expect quantum computers to break cryptography in the near future since we need more than a million qubits to break cryptography, and we are barely in the two digits these days. With time there have been many new applications for quantum computers have emerged, ranging from quatum internet, give, examples to give, some, more, examples.
+Most of the quantum computer research has been focussed around breaking cryptography(due to its implications), this is due to Shor's algorithm, but it is unrealistic to expect quantum computers to break cryptography in the near future since we need thousands of qubits to break cryptography, and we are barely in the two digits these days. With time there have been many new applications for quantum computers have emerged, ranging from quatum internet to the simulation of quantum mechanical systems which may lead to the formation of new materials that can be used for cancer, nanoparticles, superconducting materials etc. and ofcourse quantum cryptography
 
-That guy say that quantum internet will be around in 13 yrs, china is quite fast in this and google has developed besht quantum computers, intel, IBM etc.
+Jian-Wei Pan of the University of Science and Technology of China, hopes that by 2030 quantum communications will span multiple countries. In around 10 years, you can expect quantum internet. Intel recently announced a 49 bit quantum computer named ‘Tangle Lake’, Google has reportedly built a 72-bit quantum computer chip called ‘Bristlecone’, IBM unveiled world’s first commercial quantum computer named the IBM Q System One. Alibaba is also making great advances in this field.
 
+<!-- 
+Even though great advances have been done in the recent years in the arena of quantum computing, a lot remains to be done. It seems the future of quantum computing is bright but full of  -->
 
 [great video](https://www.youtube.com/watch?v=F8U1d2Hqark)
 [computer history](https://www.computerhistory.org/timeline/1950/)
-
+[very detailed series on quantum computers](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
+[long blog](https://medium.com/@jackkrupansky/the-greatest-challenges-for-quantum-computing-are-hardware-and-algorithms-c61061fa1210)
+[hackernoon blog](https://hackernoon.com/quantum-computing-explained-a114999299ca)
 
 [1]  P.A.M. Dirac (1947). The Principles of Quantum Mechanics (2nd edition). Clarendon Press. p. 12. 
