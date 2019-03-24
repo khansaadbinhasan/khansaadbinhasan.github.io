@@ -5,7 +5,7 @@ title: Understanding Quantum Computers
 
 Even though it is not necessary to go over the classical computers to understand how quantum computers work, but it is quite interesting how computers evolved and how there are so many misconception around quantum computers, I find it necessary to go over how classical computers became what they are today and how they have little to do with quantum computers. 
 
-QuantumMeme.gif
+![Quantum Meme]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumMeme.gif "QuantumMeme")
 
 ## Brief Discussion on Computers
 
@@ -13,26 +13,24 @@ QuantumMeme.gif
 
 Most people know what a computer is but it is very hard for them to define it. In the most rudimentary sense of the word, computer is anything that computes i.e, can do simple arithmetic calculations, Here is a more formal definition from [wikipedia](https://en.wikipedia.org/wiki/Computer):
 
->_A computer is a device that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster._
+>*A computer is a device that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.*
 
 Although the journey for the modern computer starts somewhere in the twentieth century, a need for such a machine was felt way back in the 19th century and great inventors/scientists tried their hands on [building such a machine](https://en.wikipedia.org/wiki/Difference_engine). Mechanical computers were designed at that time(most famously by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage)) and first programs were written by many people including [lady Ada Lovelace](http://mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer). But some computers were only conceived in designs as they were far beyond the reach of the technology at that time and were very costly and we would be better off using humans instead. Babbage's computer was constructed in the 1990s by History Museum in Mountain View, California, USA, Here is a [good video](https://www.youtube.com/watch?v=BlbQsKpq3Ak&t=1279s) that shows the actual difference engine designed by Babbage.
 
-<!-- {% include image.html url="/images/QuantumBlogs/TheDifferenceEngine.jpeg" description="The Difference Engine" %} -->
-<!-- QuantumBlogs/TheDifferenceEngine.jpeg -->
-<!-- The Difference Engine -->
+![The Difference Engine]( https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg "The Difference Engine")
 
-![The Difference Engine]( khansaadbinhasan.github.io/QuantumBlogs/images/TheDifferenceEngine.jpeg "The Difference Engine")
 
 The focus then shifted to Electro-Mechanical computers and wires and mercury were used with punch cards and IBM(International Business Machines) came into existence, the computers became better and better and could now perform very complex calculations, this was further accelerated by the twin world wars where computers were needed by military to gain strategic advantage. But these were still not enough to quench the thirst for ever increasing demand of computation and hence computers got bigger and bigger. Larger computers meant more complex structures and it became increasingly difficult to manage them.(fun fact: It was at this time when bugs would fly into these computers causing issues in the results, hence the use of the word bugs in modern computer science).
 
-QuantumBlogs/Bombe.jpg
-<!-- Alan Turing made a machine called Bombe to decrypt the messages sent by enigma machine this led to the allies winning second world war -->
+| ![The Bombe]( https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg "The Bombe") | 
+|:--:| 
+| *Alan Turing made a machine called Bombe to decrypt the messages sent by enigma machine this led to the allies winning second world war* |
 
 This all changed with the introduction of electronic transistors and now the computer started shrinking, their potential was now known and a great amount of fierce competition(coupled with a lot of scifi) lead to the development of smaller and smaller computers all thanks to shrinking transistor sizes. This was noticed by everyone but Gordon Moore condensed this observation and formulated it-"The number of transistors on a dense integrated circuit doubles every two years".
 
 Moore's law as it came to be called held true for many years(and still does) but here is a problem with Moore's law: Transistors can't keep shrinking, they are bound to hit that spot where quantum effects come into the picture and when quantum physics come into the picture there is a large amount of uncertainty associated(get it!). Computers need to be dead certain about the answer, else computers will not be very useful. [from wikipedia](ttps://en.wikipedia.org/wiki/Moore%27s_law)
 
->_Moore's law is the observation that the number of transistors in a dense integrated circuit doubles about every two years. The observation is named after Gordon Moore, the co-founder of Fairchild Semiconductor and CEO of Intel, whose 1965 paper described a doubling every year in the number of components per integrated circuit, and projected this rate of growth would continue for at least another decade. In 1975, looking forward to the next decade, he revised the forecast to doubling every two years. The period is often quoted as 18 months because of a prediction by Intel executive David House (being a combination of the effect of more transistors and the transistors being faster)._   
+>*Moore's law is the observation that the number of transistors in a dense integrated circuit doubles about every two years. The observation is named after Gordon Moore, the co-founder of Fairchild Semiconductor and CEO of Intel, whose 1965 paper described a doubling every year in the number of components per integrated circuit, and projected this rate of growth would continue for at least another decade. In 1975, looking forward to the next decade, he revised the forecast to doubling every two years. The period is often quoted as 18 months because of a prediction by Intel executive David House (being a combination of the effect of more transistors and the transistors being faster).*
 
 According to current estimates the transistors will stop getting any smaller around 2024. Since around that period an individual transistor will be small enough that quantum effects will be significant, if we were to make the transistor any smaller quantum effects will come into play, hence the traditional(or classical) approaches to computing will stop their exponential march in terms of improve in performance.
 
@@ -49,7 +47,8 @@ The reason is that quantum computers are here to solve some bigger problems and 
 So what are these problems? And why can't our normal computers help in this? 
 There are some problems that need extremely large computation space e.g, finding factors of very huge prime numbers, simulating molecules, simulating quantum phenomenons etc. In computer science we divide problems into different classes, depending on how they grow(i.e, how many computations are needed) as we increase the number of input values. These are called polynomial time, nondeterministic-polynomial time and np hard problems. NP problems can be solved by classical computers for very small number of inputs but for large values of N the time taken for computation becomes very large and hence computation becomes infeasible. But there are some problems that are in NP class but can still be solved in finite amount of time by a quantum computer. These problems are called **B**ounded-error **Q**uantum **P**olynomial time problems. These include factoring prime numbers(shor's algorithm) or searching through a list of numbers(grover's algorithm) but till now these kinds of problems are limited and you will be better off solving these problems on a classical computer rather than a quantum computer. But some problems(like prime factorization for large numbers) can only be solved by quantum computers(very powerful ones though).
 
-BQP.jpg
+![The Problem Heirarchy]( https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg "The Problem Heirarchy")
+
 
 To understand computers, we first look at the stuff that its made of i.e, silicon and then we build from it ground up from diodes to gates to registers to more complex architectures like ALUs and CPUs that can perform more complex calculations and then we put a layer of abstraction on it, to write programs for it, to instruct it to do tasks we want it to perform, we shall take a similar approach to understanding the internal working of a quantum computer. But before we do that, we need to understand some of the strange physics that quantum computers make use of.
 
@@ -59,7 +58,7 @@ Quantum physics is an extremely huge and interesting subject in its own, but to 
 
 **Quantum Superposition** is a very counter-intuitive physical phenomenon, it suggests that quantum particles such as electrons can appear in more than one state at the same time i.e, an electron can be at two places at the same time or can have different momentum or energy at the same time. This is not observable in our everyday life, since one thing should be at only one place, if it were at many places at the same time, it would disobey the laws of classical physics. But this is indeed possible with quantum particles owing to their dual nature i.e, wave like as well as particle like. Quantum particles are said to be waves and particles at the same time(it is to be noted that "same time" is only for understanding, because there is no concept of time or actuality in quantum world) hence have dual nature. Now waves have this superposition principle as you may be aware i.e, two waves can superpose on each other to produce another wave. This is the definition of quantum superposition as per [wikipedia](https://en.wikipedia.org/wiki/Quantum_superposition):
 
->_ It states that, much like waves in classical physics, any two (or more) quantum states can be added together ("superposed") and the result will be another valid quantum state; and conversely, that every quantum state can be represented as a sum of two or more other distinct states. Mathematically, it refers to a property of solutions to the Schrödinger equation; since the Schrödinger equation is linear, any linear combination of solutions will also be a solution._
+>* It states that, much like waves in classical physics, any two (or more) quantum states can be added together ("superposed") and the result will be another valid quantum state; and conversely, that every quantum state can be represented as a sum of two or more other distinct states. Mathematically, it refers to a property of solutions to the Schrödinger equation; since the Schrödinger equation is linear, any linear combination of solutions will also be a solution.*
 
 Here is a more mathematical explanation of quantum superposition from [Dirac's](https://en.wikipedia.org/wiki/Paul_Dirac) book:
 
@@ -69,19 +68,19 @@ Here is a more mathematical explanation of quantum superposition from [Dirac's](
 
 To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a [great video](https://www.youtube.com/watch?v=hkmoZ8e5Qn0) that explains quantum superposition or look at this [question](https://www.quora.com/Do-quantum-objects-actually-exist-in-multiple-states-at-once-when-unobserved-or-is-this-some-analogy-of-some-kind) to further clear your understanding
 
-QuantumEffects.jpeg
+![Quantum Effects]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg "Quantum Effects")
 
 **Quantum Entanglement** is one of the most fascinating quantum phenomenon, It is one of the reasons that Einstein was skeptical of Quantum mechanics and led him to call it "spooky action at a distance".
 
-QuoteEinstein3.jpg
+![Quantum Quote]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg "Quantum Quote")
 
 Lets say you have two particles in an isolated universe created out of energy, now let us consider their angular momentum, the sum of their angular momentum should be constant, let us say they are then seperated by a very large distance, again their angular momentum sum should be the same(since angular momentum is conserved), so for example if a particle is in up direction, then the other particle should be in the opposite direction. Now let us consider that we measure the spin of first particle and find that it is in up direction then the spin of other particle must be in down direction(conservation of angular momentum), contacting each other with the help of some unknown passage(hypothetically) or they are communicating with something faster than light(which is not possible because physics).
 
-Entanglement.gif
+![Quantum Entanglement gif]( https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif "Quantum Entanglement gif")
 
 I find the above thought experiment quite useful in understanding why quantum entanglement is so weird, But here is a more formal definition for quantum entanglement:
 
->_Quantum entanglement is a physical phenomenon that occurs when pairs or groups of particles are generated, interact, or share spatial proximity in ways such that the quantum state of each particle cannot be described independently of the state of the other(s), even when the particles are separated by a large distance. _
+>*Quantum entanglement is a physical phenomenon that occurs when pairs or groups of particles are generated, interact, or share spatial proximity in ways such that the quantum state of each particle cannot be described independently of the state of the other(s), even when the particles are separated by a large distance.*
 
 
 Quantum entanglement has been demonstrated experimentally with photons, neutrinos, electrons, molecules as large as buckyballs, and even small diamonds. The utilization of entanglement in communication and computation is a very active area of research. Here is a [good video](https://www.youtube.com/watch?time_continue=99&v=IOYyCHGWJq4) that explains both quantum entanglement and quantum superposition clearly.
@@ -102,7 +101,7 @@ But what makes a qubit special from a classical bit? The answer lies in the prin
 Lets say you have two bits now they can be either `00, 01, 10, 11` i.e, they can be in one of four states. Now consider two qubits, they can be- 
 `(up,up), (down,down), (up,down) + (down,up) OR (down,up) - (up,down)` {where + and - represent either coherent or decoherent superposition} as shown in figure. Now assume that the probability of each of the above states is given by alpha, beta, gamma, delta. Now here is the fun part- The Qubit is not in one of these states but in a superposition of these states. i.e, its state is `Alpha\*(up,up) + Beta\*((down,up)-(up,down)) + Gamma\*((down,up)+(up,down)) + Delta\*(up,up)` Hence, if we perform a calculation now, we will in effect be performing the calculation on all these states simultaneouly instead of each state individually, leading to remarkable improvements in performance of certain algorithms.
 
-veritasium1.jpg
+![Veritasium image]( https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg "Veritasium image")
 
 One of the most impressive things about qubits is that, it doesn't take much to increase the computation power. So for example you wanted to double the computation power of the above system to represent 8-states, Now to do this we can only add one more qubit resulting in the doubling of the number of represented states. Now lets say we need to represent the above system with classical bits, to do this we would need four individual states(composed of bits), now to double it i.e, represent 8-states we need double the states i.e, 4 more representations. So, in order to double the computation power of a classical computer we would need to double its size. But it is impractical with- say supercomputers which are already huge. But with quantum computers you can get away by only adding one qubit.
 
@@ -113,7 +112,7 @@ Even though, in principle we can perform these operations simultaneously, it is 
 
 One of the most important things that a computing machine does is- reading and writing data, since if it is possible it can do anything as shown by [Alan Turing](https://en.wikipedia.org/wiki/Turing_machine). The concept of Turing Machine has been taken further for Quantum Computers and [Quantum Turing Machines](https://en.wikipedia.org/wiki/Quantum_Turing_machine) have been proposed. Let us understand how a quantum computer reads and writes data.
 
-QuantumEntanglementMicrowave.jpg
+![Quantum Entanglement Microwave]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg "Quantum Entanglement Microwave")
 
 Qubits are embedded among transistors. Now all qubits have energy, lets say we have an electron in down state, then it will have low energy, now with a precise microwave(precise means at the right place with the right frequency) we can give that electron enough energy to make it spin in the up direction. This will result in a change of voltage in the transistor and we can now say on its basis, that it has indeed increased. Hence we have changed the state of a qubit from 0 to 1 and we have now successfully written to a qubit. 
 
@@ -124,7 +123,7 @@ Reading from a qubit is similar but we have to keep in mind that it is not so ea
 
 With the above knowledge of the internal workings of quantum computers, we can combine these to form bigger more useful parts of a computer(as in classical computer). These then form our quantum computer. Now we need all the things that are available in a classical computer, starting from a compiler, Operating system, language etc. Since classical computers have a rich history, we can leverage this to our advantage and without much work, build a working quantum computing software. Currently most companies have their own architectures, but this needs to change soon if we want to increase the speed of research in this area. We need standarized architectures, so it is easy for researchers to develop and test new things. Here is one of the proposed architectures.
 
-QuantumArchitecture.jpg
+![Quantum Architecture]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArchitecture.jpg "Quantum Architecture")
 
 As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed is.
 
@@ -135,7 +134,7 @@ Quantum computers are very prone to error. Indeed, we never get accurate result 
 
 One more problem with quantum computers is that once you observe a state it loses all its information since it has to collapse to only one state. Now, observation does not mean observation by humans, it means any interaction with the quantum particles that may lead to exchange of photons. Now this can be done by interaction with almost anything, this is known as **quantum decoherence**. Here is a more [formal definition from wikipedia](https://en.wikipedia.org/wiki/Quantum_decoherence)
 
->_Quantum decoherence is the loss of quantum coherence. In quantum mechanics, particles such as electrons are described by a wave function, a mathematical representation of the quantum state of a system; a probabilistic interpretation of the wave function is used to explain various quantum effects. As long as there exists a definite phase relation between different states, the system is said to be coherent. Coherence is preserved under the laws of quantum physics, and this is necessary for the functioning of quantum computers. However, when a quantum system is not perfectly isolated (in which case it would be impossible to manipulate or investigate it), coherence is shared with the environment and appears to be lost with time, a process called quantum decoherence. As a result of this process, quantum behavior is apparently lost, just as energy appears to be lost by friction in classical mechanics._
+>*Quantum decoherence is the loss of quantum coherence. In quantum mechanics, particles such as electrons are described by a wave function, a mathematical representation of the quantum state of a system; a probabilistic interpretation of the wave function is used to explain various quantum effects. As long as there exists a definite phase relation between different states, the system is said to be coherent. Coherence is preserved under the laws of quantum physics, and this is necessary for the functioning of quantum computers. However, when a quantum system is not perfectly isolated (in which case it would be impossible to manipulate or investigate it), coherence is shared with the environment and appears to be lost with time, a process called quantum decoherence. As a result of this process, quantum behavior is apparently lost, just as energy appears to be lost by friction in classical mechanics.*
 
 To overcome decoherence we need very sophisticated and very well insulated(even from waves(signals) present in the air) systems to protect qubits from any external effects. 
 
@@ -145,7 +144,7 @@ Even though quantum computers provide us with a great perspective, there is a lo
 
 Most of the quantum computer research has been focussed around breaking cryptography(due to its implications), this is due to Shor's algorithm, but it is unrealistic to expect quantum computers to break cryptography in the near future since we need thousands of qubits to break cryptography, and we are barely in the two digits these days. With time many new applications for quantum computers have emerged, ranging from quatum internet to the simulation of quantum mechanical systems which may lead to the formation of new materials that can be used to fight cancer, make nanoparticles, make superconducting materials etc. and ofcourse quantum cryptography
 
-QuantumCrypto.gif
+![Quantum Crypto]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif "Quantum Crypto")
 
 Jian-Wei Pan of the University of Science and Technology of China, hopes that by 2030 quantum communications will span multiple countries. In around 10 years, you can expect quantum internet. Intel recently announced a 49 bit quantum computer named ‘Tangle Lake’, Google has reportedly built a 72-bit quantum computer chip called ‘Bristlecone’, IBM unveiled world’s first commercial quantum computer named the IBM Q System One. Alibaba is also making great advances in this field.
 
