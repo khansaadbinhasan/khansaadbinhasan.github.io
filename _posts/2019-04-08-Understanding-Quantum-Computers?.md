@@ -284,7 +284,6 @@ Reading from a qubit is similar but we have to keep in mind that it is not so ea
 
 <br>
 
-----
 
 ## The Big Picture
 
@@ -319,17 +318,16 @@ With the above knowledge of the internal workings of quantum computers, we can c
 <br>
 
 
-As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed is. Now we are in a position to understand how to use all these components and do something useful with it. There are a number of quantum algorithms that have been proposed:
+As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed is. Now we are in a position to understand how to use these components and do something useful with it. There are a number of quantum algorithms that have been proposed:
 
-* Shor’s Algorithm can be used for integer factorization, It uses number theory to achieve this, It can theoretically break RSA encryption 
+* **Shor’s Algorithm** can be used for integer factorization, It uses number theory to achieve this, It can theoretically break RSA encryption 
 
-* Grover's algorithm is a quantum algorithm that finds with high probability the unique input to a black box function that produces a particular output value, using just O ( N ) evaluations of the function, where N is the size of the function's domain. It was devised by Lov Grover in 1996.
+* **Grover's algorithm** is a quantum algorithm that finds with high probability the unique input to a black box function that produces a particular output value, using just O ( N ) evaluations of the function, where N is the size of the function's domain. It was devised by Lov Grover in 1996.
 
-* Deutsch-Jozsa problem takes n-digit binary values as input and produces either a 0 or a 1 as output for each such value. We are promised that the function is either constant (0 on all outputs or 1 on all outputs) or balanced, the task then is to determine if f is constant or balanced by using the oracle(black box quantum computer).
+* **Deutsch-Jozsa** problem takes n-digit binary values as input and produces either a 0 or a 1 as output for each such value. We are promised that the function is either constant (0 on all outputs or 1 on all outputs) or balanced, the task then is to determine if f is constant or balanced by using the oracle(black box quantum computer).
 
-These algorithms are very complex and there are already very good resources already available that explains them in great detail hence it makes little sense to explain these in this blog. Here is a blog for [Shor's Algorithm by scott aaronson](https://www.scottaaronson.com/blog/?p=208), Here is another [great blog for Grover's Algorithm](https://plus.maths.org/content/really-how-do-quantum-computers-work)
+These algorithms are very complex and there are already very good resources already available that explains them in great detail hence it makes little sense to explain these in this blog. Here is a blog for [Shor's Algorithm by scott aaronson](https://www.scottaaronson.com/blog/?p=208), and another [for Grover's Algorithm](https://plus.maths.org/content/really-how-do-quantum-computers-work)
 
----
 
 ## Challenges and Shortcomings
 
