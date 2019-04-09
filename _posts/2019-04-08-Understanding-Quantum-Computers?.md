@@ -22,7 +22,7 @@ Most people know what a computer is but it is very hard for them to define it. I
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
@@ -54,7 +54,7 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
@@ -94,7 +94,7 @@ So what are these problems? And why can't our normal computers help in this? The
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
@@ -132,7 +132,7 @@ To get a better understanding of quantum superposition, you may want to look at 
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
@@ -154,12 +154,12 @@ To get a better understanding of quantum superposition, you may want to look at 
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="480px" height=auto/>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="720px" height="auto"/>
 </figure>
 
 <br><br>
@@ -178,12 +178,12 @@ Lets say you have two particles in an isolated universe created out of energy, n
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto  />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="720px" height="auto"  />
 	<figcaption>Quantum Entanglement gif</figcaption> 
 </figure>
 
@@ -227,7 +227,7 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
@@ -262,12 +262,12 @@ One of the most important things that a computing machine does is- reading and w
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto  />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="720px" height="auto"  />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
@@ -300,12 +300,12 @@ With the above knowledge of the internal workings of quantum computers, we can c
 				  width: 720px;
 				  text-align: center;
 				  font-style: italic;
-				  font-size: 120%;
+				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto  />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="720px" height="auto"  />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
@@ -341,7 +341,18 @@ Most of the quantum computing research has been focussed around breaking cryptog
      
 <br><br>
 
-![Quantum Crypto]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif "Quantum Crypto")
+<figure style = " float: right;
+				  width: 720px;
+				  text-align: center;
+				  font-style: italic;
+				  font-size: 90%;
+				  text-indent: 0;
+				  border: thin silver solid;
+				  margin: 0.5em;
+				  padding: 0.5em; ">
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Cryptography" width="720px" height="auto"  />
+	<figcaption>Quantum Cryptography</figcaption> 
+</figure>
           
 <br><br>
 
