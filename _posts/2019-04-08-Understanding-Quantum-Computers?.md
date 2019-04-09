@@ -27,8 +27,7 @@ Most people know what a computer is but it is very hard for them to define it. I
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height="auto" border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="720px" height="auto" />
 	<figcaption>The Difference Engine</figcaption>
 </figure>
 
@@ -60,8 +59,7 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="720px" height="auto" />
 		<figcaption>The Bombe</figcaption>
 </figure>
 
@@ -101,8 +99,7 @@ So what are these problems? And why can't our normal computers help in this? The
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="720px" height="auto" />
 	<figcaption>The Problem Heirarchy</figcaption>
 </figure>
 
@@ -140,8 +137,7 @@ To get a better understanding of quantum superposition, you may want to look at 
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="720px" height="auto" />
 	<figcaption>Quantum Effects</figcaption> 
 </figure>
 
@@ -223,8 +219,7 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="720px" height="auto" />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
