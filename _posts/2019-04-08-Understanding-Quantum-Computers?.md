@@ -17,7 +17,7 @@ Most people know what a computer is but it is very hard for them to define it. I
       
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="240" height="180" border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height=auto border="10" 
 	style = "padding-bottom:0.5em;" />
 	The Difference Engine
 </div>
@@ -29,17 +29,12 @@ Most people know what a computer is but it is very hard for them to define it. I
 ---
  -->      
 
- <iframe width="720" height="405" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      
      
 Although the journey for the modern computer starts somewhere in the twentieth century, a need for such a machine was felt way back in the 19th century and great inventors/scientists tried their hands on [building such a machine](https://en.wikipedia.org/wiki/Difference_engine). Mechanical computers were designed at that time(most famously by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage)) and first programs were written by many people including [lady Ada Lovelace](http://mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer). But some computers were only conceived in designs as they were far beyond the reach of the technology at that time and were very costly and we would be better off using humans instead. Babbage's computer was constructed in the 1990s by History Museum in Mountain View, California, USA, Here is a [good video](https://www.youtube.com/watch?v=BlbQsKpq3Ak&t=1279s) that shows the actual difference engine designed by Babbage.
 
-<!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
- -->
- <!-- <iframe width="720" height="405" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- -->
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/BlbQsKpq3Ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The focus then shifted to Electro-Mechanical computers and wires and mercury were used with punch cards and IBM(International Business Machines) came into existence, the computers became better and better and could now perform very complex calculations, this was further accelerated by the twin world wars where computers were needed by military to gain strategic advantage. But these were still not enough to quench the thirst for ever increasing demand of computation and hence computers got bigger and bigger. Larger computers meant more complex structures and it became increasingly difficult to manage them.(fun fact: It was at this time when bugs would fly into these computers causing issues in the results, hence the use of the word "**bugs**" in modern computer science).      
        
@@ -48,7 +43,7 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
      
 
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="240" height="180" border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" 
 	style = "padding-bottom:0.5em;" />
 	The Bombe
 </div>
@@ -87,7 +82,7 @@ So what are these problems? And why can't our normal computers help in this? The
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="240" height="180" border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" 
 	style = "padding-bottom:0.5em;" />
 	The Problem Heirarchy
 </div>
@@ -124,7 +119,7 @@ To get a better understanding of quantum superposition, you may want to look at 
       
      
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="240" height="180" border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" 
 	style = "padding-bottom:0.5em;" />
 	Quantum Effects
 </div>
@@ -145,7 +140,7 @@ To get a better understanding of quantum superposition, you may want to look at 
        
       
      
-<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="240" height="180" border="10"
+<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="480px" height=auto border="10"
 style = "padding-bottom:0.5em;" />
 
 
@@ -164,7 +159,7 @@ Lets say you have two particles in an isolated universe created out of energy, n
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="240" height="180" border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto border="10"
 	style = "padding-bottom:0.5em;" />
 	Quantum Entanglement gif
 </div>
@@ -187,8 +182,7 @@ I find the above thought experiment quite useful in understanding why quantum en
 
 Quantum entanglement has been demonstrated experimentally with photons, neutrinos, electrons, molecules as large as buckyballs, and even small diamonds. The utilization of entanglement in communication and computation is a very active area of research. Here is a [good video](https://www.youtube.com/watch?time_continue=99&v=IOYyCHGWJq4) that explains both quantum entanglement and quantum superposition clearly.
 
-<!-- <iframe width="720" height="405" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- -->
+<iframe width="720" height="405" src="https://www.youtube.com/embed/IOYyCHGWJq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Even though quantum entanglement seems strange it still works and that is what matters when it comes to quantum computers, There have been many experiments that prove that quantum entanglement does exist and a chinese satellite (called Micius) was sent in 2011 to facilitate communication using quantum entanglement, and a [video conference call](https://www.sciencenews.org/article/quantum-video-chat-links-scientists-two-different-continents) was conducted in 2017. 
 
@@ -215,7 +209,7 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="240" height="180" border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" 
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>     
@@ -237,8 +231,7 @@ One of the most impressive things about qubits is that, it doesn't take much to 
 
 Even though, in principle we can perform these operations simultaneously, it is not possible for us to measure these states, since superposition breaks as soon as we measure the states. Hence, in effect we can only get one answer and if we measure a qubit we are most likely to end up with a random answer which is not going to be useful. To counter this, we devise algorithms in such a way that the wrong states interfere and cancel each other while the right answer is promoted by interference(as is done in [shor's algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm)). And in the end we are left with answers that have more probability of being right than wrong. This can be done by [Quantum Fourier Transform](https://en.wikipedia.org/wiki/Quantum_Fourier_transform). Here is a [great video](https://www.youtube.com/watch?v=wUwZZaI5u0c) to understand how quantum algorithms work.
 
-<!-- <iframe width="720" height="405" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- -->
+<iframe width="720" height="405" src="https://www.youtube.com/embed/wUwZZaI5u0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Information Storage and Retreival
 
@@ -247,7 +240,7 @@ One of the most important things that a computing machine does is- reading and w
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="240" height="180" border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>
@@ -271,8 +264,8 @@ Qubits are embedded among transistors. Now all qubits have energy, lets say we h
 
 Reading from a qubit is similar but we have to keep in mind that it is not so easy, We cannot just have a good microwave generator and read/write from/into qubits. Since at room temperature, there is too much energy for a quantum particle and it will generate random patterns, but we need very precise patterns, so we need to cool the substance down to almost zero kelvin so we can record the qubit data. Here is a [great video by veritasium](https://www.youtube.com/watch?v=zNzzGgr2mhk&list=PLkahZjV5wKe_dajngssVLffaCh2gbq55_&index=6) that illustrate the above in great detail
 
-<!-- <iframe width="720" height="405" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- -->
+<iframe width="720" height="405" src="https://www.youtube.com/embed/zNzzGgr2mhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## The Big Picture
 
@@ -286,7 +279,7 @@ With the above knowledge of the internal workings of quantum computers, we can c
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="240" height="180" border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>     
@@ -330,7 +323,7 @@ Even though quantum computers provide us with a great perspective, there is a lo
 Most of the quantum computing research has been focussed around breaking cryptography(due to its implications), this is due to [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm), but it is unrealistic to expect quantum computers to break cryptography in the near future since we need thousands of qubits to break cryptography, and we are barely in the two digits these days. With time many new applications for quantum computers have emerged, ranging from quatum internet to the simulation of quantum mechanical systems which may lead to the formation of new materials that can be used to fight cancer, make nanoparticles, make superconducting materials etc. Quantum Cryptography is emerging as one of the more advance areas in applications of quantum effects.
 
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Crypto" width="240" height="180" border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Crypto" width="480px" height=auto border="10"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>          
