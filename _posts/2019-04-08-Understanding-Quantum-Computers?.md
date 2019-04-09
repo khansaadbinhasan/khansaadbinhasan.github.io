@@ -15,13 +15,21 @@ Most people know what a computer is but it is very hard for them to define it. I
 
 >*A computer is a device that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.*
       
-      
-<div style="width:image width px; font-size:60%; text-align:center;">
+
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height="auto" border="10" vspace="50" 
+	style = "padding-bottom:200px;" />
+	<figcaption>The Difference Engine</figcaption>
+</figure>
+
+<!-- <div style="width: image width px; 
+			font-size: 80%; 
+			text-align: center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height="auto" border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	The Difference Engine
 </div>
-
+ -->
 <!-- ---
 | ![The Difference Engine]( https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg "The Difference Engine") | 
 |:--:| 
@@ -41,13 +49,18 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
        
       
      
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" vspace="50" 
+	style = "padding-bottom:0.5em;" />
+		<figcaption>The Bombe</figcaption>
+</figure>
 
-<div style="width:image width px; font-size:60%; text-align:center;">
+<!-- <div style="width:image width px; font-size:80%; text-align:center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	The Bombe
 </div>
-
+ -->
 <!-- -----
 | ![The Bombe]( https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg "The Bombe") | 
 |:--:| 
@@ -81,12 +94,18 @@ So what are these problems? And why can't our normal computers help in this? The
 
        
       
-<div style="width:image width px; font-size:60%; text-align:center;">
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" vspace="50" 
+	style = "padding-bottom:0.5em;" />
+	<figcaption>The Problem Heirarchy</figcaption>
+</figure>
+
+<!-- <div style="width:image width px; font-size:80%; text-align:center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	The Problem Heirarchy
 </div>
-
+ -->
 <!-- -----
 | ![The Problem Heirarchy]( https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg "The Problem Heirarchy") | 
 |:--:| 
@@ -117,13 +136,19 @@ Here is a more mathematical explanation of quantum superposition from [Dirac's](
 To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a [great video](https://www.youtube.com/watch?v=hkmoZ8e5Qn0) that explains quantum superposition or look at this [quora thread](https://www.quora.com/Do-quantum-objects-actually-exist-in-multiple-states-at-once-when-unobserved-or-is-this-some-analogy-of-some-kind) to further clear your understanding
        
       
-     
-<div style="width:image width px; font-size:60%; text-align:center;">
+
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" vspace="50" 
+	style = "padding-bottom:0.5em;" />
+	<figcaption>Quantum Effects</figcaption> 
+</figure>
+
+<!-- <div style="width:image width px; font-size:80%; text-align:center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	Quantum Effects
 </div>
-
+ -->
 
 <!-- -----
 | ![Quantum Effects]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg "Quantum Effects") | 
@@ -158,12 +183,17 @@ Lets say you have two particles in an isolated universe created out of energy, n
 
        
       
-<div style="width:image width px; font-size:60%; text-align:center;">
+
+<figure>
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
-	Quantum Entanglement gif
+	<figcaption>Quantum Entanglement gif</figcaption> 
+</figure>
+
+<!-- <div style="width:image width px; font-size:80%; text-align:center;">
+
 </div>
-     
+ -->     
 
 <!-- -----
 | ![Quantum Entanglement gif]( https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif "Quantum Entanglement gif") | 
@@ -190,7 +220,7 @@ With the above information in mind we can now proceed further to understand how 
 
 ## Qubits
 
-In classical computers the information is stored in the form of bits, These **bi**nary digi**ts** can represent 0 or 1 states, We have developed quite sophisticated system just by using this simple form of storage but we can still do a lot better with a **Qu**antum **bit**, Unlike bits which can only store 0s and 1s qubits can store a third and very important state that is the superposition of 0 and 1. This superposition of states is what helps a quantum computers do things that a classical computer may not be able to do. When a qubit is in one of the superposition states, it can be said to be in both 0 and 1 states at the same time but this is hardly the case. For example consider you move 3m North and then 4m West, now you are 5m in the North-West Direction or you are in a superposition of North and West. To put it another way- "You are in north and west at the same time!", It doesn't sound so delicious anymore does it? The same is with superposition of quantum states. Even though a qubit is not in any of 1 or 0 state but it is in say 60% 1 state and 40% 0 state. Hence, it is in the superposition of two states at once.
+In classical computers the information is stored in the form of bits, These **bi**nary digi**ts** can represent 0 or 1 states, We have developed quite sophisticated system just by using this simple form of storage but we can still do a lot better with a **Qu**antum **bit**, Unlike bits which can only store 0s and 1s qubits can store a third and very important state that is the superposition of 0 and 1. This superposition of states is what helps a quantum computers do things that a classical computer may not be able to do. When a qubit is in one of the superposition states, it can be said to be in both 0 and 1 states at the same time but this is hardly the case. For example consider you move 3m North and then 4m West, now you are 5m in the North-West Direction or you are in a superposition of North and West. To put it another way- "You are in north and west at the same time!", It doesn't sound so delicious anymore does it? The same is with superposition of quantum states. Even though a qubit is not in any of 1 or 0 state but it is in say 80% 1 state and 40% 0 state. Hence, it is in the superposition of two states at once.
 
 Here is a good answer that explains [how qubits can hold both 0 and 1 at the same time?](https://www.quora.com/How-can-a-qubit-hold-0-and-1-at-same-time)
 
@@ -208,12 +238,18 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
 
        
       
-<div style="width:image width px; font-size:60%; text-align:center;">
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" vspace="50" 
+	style = "padding-bottom:0.5em;" />
+	<figcaption>States of a two qubit system</figcaption> 
+</figure>
+
+<!-- <div style="width:image width px; font-size:80%; text-align:center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>     
-
+ -->
 
 <!-- -----
 
@@ -239,11 +275,18 @@ One of the most important things that a computing machine does is- reading and w
 
        
       
-<div style="width:image width px; font-size:60%; text-align:center;">
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10" vspace="50"
+	style = "padding-bottom:0.5em;" />
+	<figcaption>States of a two qubit system</figcaption> 
+</figure>
+
+<!-- 
+<div style="width:image width px; font-size:80%; text-align:center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
-</div>
+</div> -->
 
 
 
@@ -278,12 +321,19 @@ With the above knowledge of the internal workings of quantum computers, we can c
 
        
       
-<div style="width:image width px; font-size:60%; text-align:center;">
+<figure>
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10" vspace="50"
+	style = "padding-bottom:0.5em;" />
+	<figcaption>States of a two qubit system</figcaption> 
+</figure>
+
+
+<!-- <div style="width:image width px; font-size:80%; text-align:center;">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>     
-
+ -->
 
 <!-- -----
 | ![Quantum Computer Architecture]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif "Quantum Computer Architecture") | 
@@ -322,23 +372,13 @@ Even though quantum computers provide us with a great perspective, there is a lo
 
 Most of the quantum computing research has been focussed around breaking cryptography(due to its implications), this is due to [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm), but it is unrealistic to expect quantum computers to break cryptography in the near future since we need thousands of qubits to break cryptography, and we are barely in the two digits these days. With time many new applications for quantum computers have emerged, ranging from quatum internet to the simulation of quantum mechanical systems which may lead to the formation of new materials that can be used to fight cancer, make nanoparticles, make superconducting materials etc. Quantum Cryptography is emerging as one of the more advance areas in applications of quantum effects.
 
-<div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Crypto" width="480px" height=auto border="10" vspace="50"
-	style = "padding-bottom:0.5em;" />
-	States of a two qubit system
-</div>          
-
-
      
-<!-- -----
      
 
 ![Quantum Crypto]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif "Quantum Crypto")
           
 
-     
------
- -->
+
 Jian-Wei Pan of the University of Science and Technology of China, hopes that by 2030 quantum communications will span multiple countries. In around 10 years, you can expect quantum internet. Intel recently announced a 49 bit quantum computer named ‘Tangle Lake’, Google has reportedly built a 72-bit quantum computer chip called ‘Bristlecone’, IBM unveiled world’s first commercial quantum computer named the IBM Q System One. Alibaba is also making great advances in this field.
 
 
