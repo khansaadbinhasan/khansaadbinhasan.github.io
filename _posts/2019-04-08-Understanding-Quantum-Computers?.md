@@ -17,7 +17,7 @@ Most people know what a computer is but it is very hard for them to define it. I
       
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height=auto border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height="auto" border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	The Difference Engine
 </div>
@@ -43,7 +43,7 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
      
 
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	The Bombe
 </div>
@@ -82,7 +82,7 @@ So what are these problems? And why can't our normal computers help in this? The
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	The Problem Heirarchy
 </div>
@@ -119,7 +119,7 @@ To get a better understanding of quantum superposition, you may want to look at 
       
      
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	Quantum Effects
 </div>
@@ -140,7 +140,7 @@ To get a better understanding of quantum superposition, you may want to look at 
        
       
      
-<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="480px" height=auto border="10"
+<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="480px" height=auto border="10" vspace="50"
 style = "padding-bottom:0.5em;" />
 
 
@@ -159,7 +159,7 @@ Lets say you have two particles in an isolated universe created out of energy, n
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
 	Quantum Entanglement gif
 </div>
@@ -209,7 +209,7 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" 
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" vspace="50" 
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>     
@@ -240,7 +240,7 @@ One of the most important things that a computing machine does is- reading and w
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>
@@ -279,7 +279,7 @@ With the above knowledge of the internal workings of quantum computers, we can c
        
       
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>     
@@ -323,7 +323,7 @@ Even though quantum computers provide us with a great perspective, there is a lo
 Most of the quantum computing research has been focussed around breaking cryptography(due to its implications), this is due to [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm), but it is unrealistic to expect quantum computers to break cryptography in the near future since we need thousands of qubits to break cryptography, and we are barely in the two digits these days. With time many new applications for quantum computers have emerged, ranging from quatum internet to the simulation of quantum mechanical systems which may lead to the formation of new materials that can be used to fight cancer, make nanoparticles, make superconducting materials etc. Quantum Cryptography is emerging as one of the more advance areas in applications of quantum effects.
 
 <div style="width:image width px; font-size:60%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Crypto" width="480px" height=auto border="10"
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Crypto" width="480px" height=auto border="10" vspace="50"
 	style = "padding-bottom:0.5em;" />
 	States of a two qubit system
 </div>          
