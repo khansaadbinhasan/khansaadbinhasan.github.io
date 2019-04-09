@@ -169,8 +169,7 @@ Lets say you have two particles in an isolated universe created out of energy, n
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto border="10" vspace="50"
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="480px" height=auto  />
 	<figcaption>Quantum Entanglement gif</figcaption> 
 </figure>
 
@@ -254,8 +253,7 @@ One of the most important things that a computing machine does is- reading and w
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10" vspace="50"
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto  />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
@@ -293,8 +291,7 @@ With the above knowledge of the internal workings of quantum computers, we can c
 				  border: thin silver solid;
 				  margin: 0.5em;
 				  padding: 0.5em; ">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10" vspace="50"
-	style = "padding-bottom:0.5em;" />
+	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto  />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
