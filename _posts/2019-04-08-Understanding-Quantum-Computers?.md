@@ -16,7 +16,7 @@ Most people know what a computer is but it is very hard for them to define it. I
 >*A computer is a device that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.*
       
 
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -25,30 +25,30 @@ Most people know what a computer is but it is very hard for them to define it. I
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="720px" height="auto" />
 	<figcaption>The Difference Engine</figcaption>
 </figure>
 
-<br><br>
+<br>
 
 
      
      
 Although the journey for the modern computer starts somewhere in the twentieth century, a need for such a machine was felt way back in the 19th century and great inventors/scientists tried their hands on [building such a machine](https://en.wikipedia.org/wiki/Difference_engine). Mechanical computers were designed at that time(most famously by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage)) and first programs were written by many people including [lady Ada Lovelace](http://mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer). But some computers were only conceived in designs as they were far beyond the reach of the technology at that time and were very costly and we would be better off using humans instead. Babbage's computer was constructed in the 1990s by History Museum in Mountain View, California, USA, Here is a [good video](https://www.youtube.com/watch?v=BlbQsKpq3Ak&t=1279s) that shows the actual difference engine designed by Babbage.
 
-<br><br>
+<br>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/BlbQsKpq3Ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br><br>
+<br>
 
 The focus then shifted to Electro-Mechanical computers and wires and mercury were used with punch cards and IBM(International Business Machines) came into existence, the computers became better and better and could now perform very complex calculations, this was further accelerated by the twin world wars where computers were needed by military to gain strategic advantage. But these were still not enough to quench the thirst for ever increasing demand of computation and hence computers got bigger and bigger. Larger computers meant more complex structures and it became increasingly difficult to manage them.(fun fact: It was at this time when bugs would fly into these computers causing issues in the results, hence the use of the word "**bugs**" in modern computer science).      
        
        
       
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -57,13 +57,13 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="720px" height="auto" />
 		<figcaption>The Bombe</figcaption>
 </figure>
 
-<br><br>
+<br>
 
      
      
@@ -88,7 +88,7 @@ The reason is that quantum computers are here to solve some bigger problems and 
 So what are these problems? And why can't our normal computers help in this? There are some problems that need extremely large computation power and space e.g, finding factors of very huge prime numbers, simulating molecules, simulating quantum phenomenons etc. In computer science we divide problems into different classes, depending on how they grow(i.e, how many computations are needed) as we increase the number of input values. These are called polynomial time, nondeterministic-polynomial time and np hard problems. NP problems can be solved by classical computers for very small number of inputs but for large values of N the time taken for computation becomes very large and hence computation becomes infeasible. But there are some problems that are in NP class but can still be solved in finite amount of time by a quantum computer. These problems are called **B**ounded-error **Q**uantum **P**olynomial time problems. But till now these kinds of problems are limited and you will be better off solving these problems on a classical computer rather than a quantum computer. But some problems(like prime factorization for large numbers) can only be solved by quantum computers(very powerful ones though).
 
        
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -97,13 +97,13 @@ So what are these problems? And why can't our normal computers help in this? The
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="720px" height="auto" />
 	<figcaption>The Problem Heirarchy</figcaption>
 </figure>
 
-<br><br>
+<br>
 
      
      
@@ -126,7 +126,7 @@ Here is a more mathematical explanation of quantum superposition from [Dirac's](
 To get a better understanding of quantum superposition, you may want to look at the accompanying video for the [quantum superposition wiki page](https://en.wikipedia.org/wiki/Quantum_superposition), I find that video very helpful to understand quantum superposition. If you are still having trouble here is a [great video](https://www.youtube.com/watch?v=hkmoZ8e5Qn0) that explains quantum superposition or look at this [quora thread](https://www.quora.com/Do-quantum-objects-actually-exist-in-multiple-states-at-once-when-unobserved-or-is-this-some-analogy-of-some-kind) to further clear your understanding
        
       
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -135,20 +135,20 @@ To get a better understanding of quantum superposition, you may want to look at 
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="720px" height="auto" />
 	<figcaption>Quantum Effects</figcaption> 
 </figure>
 
-<br><br>
+<br>
      
      
 **Quantum Entanglement** is one of the most fascinating quantum phenomenon, It is one of the reasons that Einstein was skeptical of Quantum mechanics and led him to call it ["spooky action at a distance".](https://dragallur.wordpress.com/2016/02/14/spooky-action-at-a-distance/)
        
       
      
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -157,12 +157,12 @@ To get a better understanding of quantum superposition, you may want to look at 
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg" alt="Quantum Quote" width="720px" height="auto"/>
 </figure>
 
-<br><br>
+<br>
 
 
 
@@ -172,7 +172,7 @@ Lets say you have two particles in an isolated universe created out of energy, n
 
        
       
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -181,13 +181,13 @@ Lets say you have two particles in an isolated universe created out of energy, n
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif" alt="Quantum Entanglement gif" width="720px" height="auto"  />
 	<figcaption>Quantum Entanglement gif</figcaption> 
 </figure>
 
-<br><br>
+<br>
      
 I find the above thought experiment quite useful in understanding why quantum entanglement is so weird, But here is a more [formal definition](https://en.wikipedia.org/wiki/Quantum_entanglement) for quantum entanglement:
 
@@ -221,7 +221,7 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
 
        
       
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -230,13 +230,13 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="720px" height="auto" />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
-<br><br>
+<br>
 
       
      
@@ -245,18 +245,18 @@ One of the most impressive things about qubits is that, it doesn't take much to 
 
 Even though, in principle we can perform these operations simultaneously, it is not possible for us to measure these states, since superposition breaks as soon as we measure the states. Hence, in effect we can only get one answer and if we measure a qubit we are most likely to end up with a random answer which is not going to be useful. To counter this, we devise algorithms in such a way that the wrong states interfere and cancel each other while the right answer is promoted by interference(as is done in [shor's algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm)). And in the end we are left with answers that have more probability of being right than wrong. This can be done by [Quantum Fourier Transform](https://en.wikipedia.org/wiki/Quantum_Fourier_transform). Here is a [great video](https://www.youtube.com/watch?v=wUwZZaI5u0c) to understand how quantum algorithms work.
 
-<br><br>
+<br>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/wUwZZaI5u0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br><br>
+<br>
 
 ## Information Storage and Retreival
 
 One of the most important things that a computing machine does is- reading and writing data, since if it is possible it can do anything as shown by [Alan Turing](https://en.wikipedia.org/wiki/Turing_machine). The concept of Turing Machine has been taken further for Quantum Computers and [Quantum Turing Machines](https://en.wikipedia.org/wiki/Quantum_Turing_machine) have been proposed. Let us understand how a quantum computer reads and writes data.
 
        
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -265,24 +265,24 @@ One of the most important things that a computing machine does is- reading and w
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="720px" height="auto"  />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
-<br><br>
+<br>
 
 
 Qubits are embedded among transistors. Now all qubits have energy, lets say we have an electron in down state, then it will have low energy, now with a precise microwave(precise means at the right place with the right frequency) we can give that electron enough energy to make it spin in the up direction. This will result in a change of voltage in the transistor and we can now say on its basis, that it has indeed increased. Hence we have changed the state of a qubit from 0 to 1 and we have now successfully written to a qubit. 
 
 Reading from a qubit is similar but we have to keep in mind that it is not so easy, We cannot just have a good microwave generator and read/write from/into qubits. Since at room temperature, there is too much energy for a quantum particle and it will generate random patterns, but we need very precise patterns, so we need to cool the substance down to almost zero kelvin so we can record the qubit data. Here is a [great video by veritasium](https://www.youtube.com/watch?v=zNzzGgr2mhk&list=PLkahZjV5wKe_dajngssVLffaCh2gbq55_&index=6) that illustrate the above in great detail
 
-<br><br>
+<br>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/zNzzGgr2mhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br><br>
+<br>
 
 ## The Big Picture
 
@@ -294,7 +294,7 @@ add about gates here
 With the above knowledge of the internal workings of quantum computers, we can combine these to form bigger, more useful parts of a computer(as in classical computers). These then form our quantum computer. Now we need all the things that are available in a classical computer, starting from a compiler, Operating system, programming languages etc. Since classical computers have a rich history, we can leverage this to our advantage and without much work, build a working quantum computing software. Currently most companies have their own architectures, but this needs to change soon if we want to increase the speed of research in this area. We need standarized architectures, so it is easy for researchers to develop and test new things. Here is one of the proposed architectures.
 
        
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -303,13 +303,13 @@ With the above knowledge of the internal workings of quantum computers, we can c
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="720px" height="auto"  />
 	<figcaption>States of a two qubit system</figcaption> 
 </figure>
 
-<br><br>
+<br>
 
 
 As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed is.
@@ -339,7 +339,7 @@ Most of the quantum computing research has been focussed around breaking cryptog
 
      
      
-<br><br>
+<br>
 
 <figure style = " float: right;
 				  width: 720px;
@@ -348,13 +348,13 @@ Most of the quantum computing research has been focussed around breaking cryptog
 				  font-size: 90%;
 				  text-indent: 0;
 				  border: thin silver solid;
-				  margin: 0.5em;
+				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumCrypto.gif" alt="Quantum Cryptography" width="720px" height="auto"  />
 	<figcaption>Quantum Cryptography</figcaption> 
 </figure>
           
-<br><br>
+<br>
 
 Jian-Wei Pan of the University of Science and Technology of China, hopes that by 2030 quantum communications will span multiple countries. In around 10 years, you can expect quantum internet. Intel recently announced a 49 bit quantum computer named ‘Tangle Lake’, Google has reportedly built a 72-bit quantum computer chip called ‘Bristlecone’, IBM unveiled world’s first commercial quantum computer named the IBM Q System One. Alibaba is also making great advances in this field.
 
