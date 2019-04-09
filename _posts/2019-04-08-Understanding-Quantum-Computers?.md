@@ -34,20 +34,6 @@ Most people know what a computer is but it is very hard for them to define it. I
 
 <br><br>
 
-<!-- <div style="width: image width px; 
-			font-size: 80%; 
-			text-align: center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg" alt="The Difference Engine" width="480px" height="auto" border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
-	The Difference Engine
-</div>
- -->
-<!-- ---
-| ![The Difference Engine]( https://khansaadbinhasan.github.io/images/QuantumBlogs/TheDifferenceEngine.jpeg "The Difference Engine") | 
-|:--:| 
-| *The Difference Engine* |
----
- -->      
 
      
      
@@ -81,21 +67,6 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
 
 <br><br>
 
-<!-- <div style="width:image width px; font-size:80%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
-	The Bombe
-</div>
- -->
-<!-- -----
-| ![The Bombe]( https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg "The Bombe") | 
-|:--:| 
-| *Alan Turing made an electro-mechanical device called ["Bombe"](https://en.wikipedia.org/wiki/Bombe) to decipher the messages sent by the German cryptography ["enigma machine"](https://en.wikipedia.org/wiki/Enigma_machine)* |
-       
-      
-     
------
- -->      
      
      
 This all changed with the introduction of electronic transistors and now the computer started shrinking, their potential was now known and a great amount of fierce competition(coupled with a lot of scifi) lead to the development of smaller and smaller computers all thanks to shrinking transistor sizes. This was noticed by everyone but Gordon Moore condensed this observation and formulated it-"The number of transistors on a dense integrated circuit doubles every two years".
@@ -137,21 +108,6 @@ So what are these problems? And why can't our normal computers help in this? The
 
 <br><br>
 
-<!-- <div style="width:image width px; font-size:80%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg" alt="The Problem Heirarchy" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
-	The Problem Heirarchy
-</div>
- -->
-<!-- -----
-| ![The Problem Heirarchy]( https://khansaadbinhasan.github.io/images/QuantumBlogs/BQP.jpg "The Problem Heirarchy") | 
-|:--:| 
-| *The Problem Heirarchy* |
-       
-      
-     
------
- -->      
      
      
 To understand computers, we first look at the stuff that its made of i.e, silicon and then we build from it ground up from diodes to gates to registers to more complex architectures like ALUs and CPUs that can perform more complex calculations and then we put a layer of abstraction over it, to write programs for it, to instruct it to do tasks we want it to perform. We shall take a similar approach to understanding the internal working of a quantum computer. But before we do that, we need to understand some of the strange physics that quantum computers make use of.
@@ -190,22 +146,6 @@ To get a better understanding of quantum superposition, you may want to look at 
 </figure>
 
 <br><br>
-<!-- <div style="width:image width px; font-size:80%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg " alt="Quantum Effects" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
-	Quantum Effects
-</div>
- -->
-
-<!-- -----
-| ![Quantum Effects]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEffects.jpeg "Quantum Effects") | 
-|:--:| 
-| *Quantum Entanglement and Quantum Superposition* |
-       
-      
-     
------
- -->      
      
      
 **Quantum Entanglement** is one of the most fascinating quantum phenomenon, It is one of the reasons that Einstein was skeptical of Quantum mechanics and led him to call it ["spooky action at a distance".](https://dragallur.wordpress.com/2016/02/14/spooky-action-at-a-distance/)
@@ -216,14 +156,6 @@ To get a better understanding of quantum superposition, you may want to look at 
 style = "padding-bottom:0.5em;" />
 
 
-<!-- -----
-| ![Quantum Quote]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuoteEinstein3.jpg "Quantum Quote") | 
-|:--:| 
-       
-      
-     
------
- -->      
      
      
 Lets say you have two particles in an isolated universe created out of energy, now let us consider their angular momentum, the sum of their angular momentum should be constant(Law of conservation of angular momentum). Let us say they are then seperated by a very large distance, again their angular momentum sum should be the same(since angular momentum is conserved). So for example if a particle is in up direction, then the other particle should be in the opposite direction. Now let us consider that we measure the spin of first particle and find that it is in up direction then the spin of other particle must be in down direction(conservation of angular momentum), contacting each other with the help of some unknown passage(hypothetically) or they are communicating with something faster than light(which is not possible because physics).
@@ -247,21 +179,6 @@ Lets say you have two particles in an isolated universe created out of energy, n
 </figure>
 
 <br><br>
-<!-- <div style="width:image width px; font-size:80%; text-align:center;">
-
-</div>
- -->     
-
-<!-- -----
-| ![Quantum Entanglement gif]( https://khansaadbinhasan.github.io/images/QuantumBlogs/Entanglement.gif "Quantum Entanglement gif") | 
-|:--:| 
-| *GIF illustrating Quantum Entanglement* |
-       
-      
-     
------
-      
- -->     
      
 I find the above thought experiment quite useful in understanding why quantum entanglement is so weird, But here is a more [formal definition](https://en.wikipedia.org/wiki/Quantum_entanglement) for quantum entanglement:
 
@@ -313,22 +230,6 @@ Hence, if we perform a calculation now, we will in effect be performing the calc
 
 <br><br>
 
-<!-- <div style="width:image width px; font-size:80%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg" alt="States of a two qubit system" width="480px" height=auto border="10" vspace="50" 
-	style = "padding-bottom:0.5em;" />
-	States of a two qubit system
-</div>     
- -->
-
-<!-- -----
-
-| ![Veritasium image]( https://khansaadbinhasan.github.io/images/QuantumBlogs/veritasium1.jpg "Veritasium image") | 
-|:--:| 
-| *States of a two qubit system* |
- -->       
-      
-     
------
       
      
      
@@ -364,27 +265,6 @@ One of the most important things that a computing machine does is- reading and w
 </figure>
 
 <br><br>
-
-<!-- 
-<div style="width:image width px; font-size:80%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg " alt="Quantum Entanglement Microwave" width="480px" height=auto border="10" vspace="50"
-	style = "padding-bottom:0.5em;" />
-	States of a two qubit system
-</div> -->
-
-
-
-<!-- -----
-
-| ![Quantum Entanglement Microwave]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumEntanglementMicrowave.jpg "Quantum Entanglement Microwave") | 
-|:--:| 
-| *Quantum Entanglement Microwave* |  
-       
-      
-     
------
- -->      
-     
 
 
 Qubits are embedded among transistors. Now all qubits have energy, lets say we have an electron in down state, then it will have low energy, now with a precise microwave(precise means at the right place with the right frequency) we can give that electron enough energy to make it spin in the up direction. This will result in a change of voltage in the transistor and we can now say on its basis, that it has indeed increased. Hence we have changed the state of a qubit from 0 to 1 and we have now successfully written to a qubit. 
@@ -425,24 +305,6 @@ With the above knowledge of the internal workings of quantum computers, we can c
 
 <br><br>
 
-<!-- <div style="width:image width px; font-size:80%; text-align:center;">
-	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif" alt="Quantum Computer Architecture" width="480px" height=auto border="10" vspace="50"
-	style = "padding-bottom:0.5em;" />
-	States of a two qubit system
-</div>     
- -->
-
-<!-- -----
-| ![Quantum Computer Architecture]( https://khansaadbinhasan.github.io/images/QuantumBlogs/QuantumArch.gif "Quantum Computer Architecture") | 
-|:--:| 
-| *Quantum Computer Architecture* |
-       
-      
-     
------
- -->       
-      
-      
 
 As may be seen this seems like a classical computer architecture with the term quantum associated with it, It indeed is.
 
