@@ -368,18 +368,7 @@ Most of the quantum computing research has been focussed around breaking cryptog
 
 Jian-Wei Pan of the University of Science and Technology of China, hopes that by 2030 quantum communications will span multiple countries. In around 10 years, you can expect quantum internet. Intel recently announced a 49 bit quantum computer named ‘Tangle Lake’, Google has reportedly built a 72-bit quantum computer chip called ‘Bristlecone’, IBM unveiled world’s first commercial quantum computer named the IBM Q System One. Alibaba is also making great advances in this field.
 
-
--------
-give conclusion
-
-
-All in all the road ahead for quantum computers seems bright, couple that with great competitions among giant companies and you have the recipe for living in great history. 
-
-
-[great video](https://www.youtube.com/watch?v=F8U1d2Hqark)
-[computer history](https://www.computerhistory.org/timeline/1950/)
-[very detailed series on quantum computers](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
-[long blog](https://medium.com/@jackkrupansky/the-greatest-challenges-for-quantum-computing-are-hardware-and-algorithms-c61061fa1210)
-[hackernoon blog](https://hackernoon.com/quantum-computing-explained-a114999299ca)
+<br><br>
+All in all the road ahead for quantum computers seems bright, couple that with great competitions among giant companies and you have the recipe for living in times of soon to be great history. 
 
 [1]  P.A.M. Dirac (1947). The Principles of Quantum Mechanics (2nd edition). Clarendon Press. p. 12. 
