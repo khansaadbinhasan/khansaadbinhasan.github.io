@@ -60,7 +60,7 @@ The focus then shifted to Electro-Mechanical computers and wires and mercury wer
 				  margin: 1.5em;
 				  padding: 0.5em; ">
 	<img src="https://khansaadbinhasan.github.io/images/QuantumBlogs/Bombe.jpg" alt="The Bombe" width="720px" height="auto" />
-		<figcaption>The Bombe</figcaption>
+		<figcaption>Alan Turing help build an electro-mechanical device, "The Bombe" to help decipher German Enigma-machine-encrypted secret messages during World War II.</figcaption>
 </figure>
 
 <br>
