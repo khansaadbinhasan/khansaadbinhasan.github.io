@@ -370,4 +370,6 @@ Jian-Wei Pan of the University of Science and Technology of China, hopes that by
 
 All in all the road ahead for quantum computers seems bright, couple that with great competitions among giant companies and you have the recipe for living in times of soon to be great history. 
 
+<br><br>
+
 [1]  P.A.M. Dirac (1947). The Principles of Quantum Mechanics (2nd edition). Clarendon Press. p. 12. 
