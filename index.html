@@ -13,16 +13,37 @@ layout: default
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+
+
+    <blockquote class="embedly-card">
+		<h4>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</h4>
+
+		<div class="entry">
+        	{{ post.excerpt }}
+      	</div>
+
+      	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+	</blockquote>
+
+
     </article>
   {% endfor %}
 
 
-<br>
+<blockquote class="embedly-card">
+	<h4>
+		<a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd">Stock Prediction Using Twitter</a>
+	</h4>
 
-<blockquote class="embedly-card"><h4><a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd">Stock Prediction Using Twitter</a></h4><p>Many economist have argued that the stock market is random because it is governed by random events, this is suggested in Efficient Market Hypothesis and Random Walk Theory. But is it really?</p></blockquote>
+	<p>Many economist have argued that the stock market is random because it is governed by random events, this is suggested in Efficient Market Hypothesis and Random Walk Theory. But is it really?</p>
+
+</blockquote>
+
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
-<br>
 
 
 
