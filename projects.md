@@ -15,3 +15,13 @@ Video can be found [here](https://www.youtube.com/watch?v=aV1GmPjS0P4)
 As part of my minor project, built a stock prediction model. The model correlated the stock market and sentiment from twitter data. The code can be found [here](https://github.com/khansaadbinhasan/Stock-Prediction) and the blog [here](https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd)
 
 ![Accenture](images/Projects/Accenture.png)
+
+
+### Aruco Marker Detection using OpenCV
+
+As part of a competition, I made an aruco marker detection system, the purpose of this was to give values of angles to aruco markers from the horizontal
+
+These are the results:
+
+![image1](images/Projects/Result_image1.png)
+![image2](images/Projects/Result_image2.png)
