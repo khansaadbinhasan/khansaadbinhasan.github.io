@@ -3,39 +3,55 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
 
-    <blockquote class="embedly-card">
+	<blockquote class="embedly-card">
 		<h4>
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			<a href="https://towardsdatascience.com/what-why-and-how-of-ros-b2f5ea8be0f3">What, Why and How of ROS</a>
 		</h4>
 
-       	<p>{{ post.excerpt }}</p>
+		<p>Humans have always been fascinated by Robots, Be it the pooping duck, Leonardo’s Mechanical Lion or the Turk. We have always tried to build things that resembles us or natural beings around us.</p>
 
-      	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+	</blockquote>
+
+	<blockquote class="embedly-card">
+		<h4>
+			<a href="https://towardsdatascience.com/super-computing-168be247335b">Super Computing</a>
+		</h4>
+
+		<p>The need for more and more powerful computers is growing every day, as our civilization progresses. The technology and science are progressing faster. This has been made possible by increasing computation power. And Supercomputers are as powerful as computers get.</p>
 
 	</blockquote>
 
 
-    </article>
-  {% endfor %}
+
+	<blockquote class="embedly-card">
+		<h4>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</h4>
+
+	   	<p>{{ post.excerpt }}</p>
+
+	  	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+	</blockquote>
 
 
-<blockquote class="embedly-card">
-	<h4>
-		<a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd">Stock Prediction Using Twitter</a>
-	</h4>
+	<blockquote class="embedly-card">
+		<h4>
+			<a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd">Stock Prediction Using Twitter</a>
+		</h4>
 
-	<p>Many economist have argued that the stock market is random because it is governed by random events, this is suggested in Efficient Market Hypothesis and Random Walk Theory. But is it really?</p>
+		<p>Many economist have argued that the stock market is random because it is governed by random events, this is suggested in Efficient Market Hypothesis and Random Walk Theory. But is it really?</p>
 
-</blockquote>
-
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+	</blockquote>
 
 
+	<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-	{% include analytics.html %}
-  {% endif %}
+
+
+	  {% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+	  {% endif %}
 
 </div>
