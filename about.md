@@ -9,7 +9,10 @@ I am interested in Robotics, Artificial Intelligence, Computer Graphics, Simulat
    
 Since I have worked on big projects like Autonomous Underwater Vehicles and Driverless Cars and participated in high-pressure competitions like Singapore AUV Challenge, I am comfortable with working on big projects and in large teams. Also, owing to my wide range of skills and experience with many new technologies I am a good fit for projects with small teams. 
 
-Currently, I am working toward solving the complex problem of "self-driving cars" using standard robotic tools, advanced simulators and computer vision
+Currently, I am working toward solving the complex problem of "self-driving cars" using standard robotic tools, advanced simulators and computer vision. I also like to document my work in the form of blogs and videos. 
+
+YouTube channel: https://www.youtube.com/channel/UCudVNfZNUhH4oWyFcB4I0gg?view_as=subscriber
+Medium Blog: https://medium.com/@khansaadbinhasan
 
 ### Contact me
 

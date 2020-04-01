@@ -1,4 +1,22 @@
-The Projects I have made
+The Projects I have worked on
+
+## Autonomous Warehouse Robot 
+
+For my final year project, I am working on building a warehouse robot that can autonomously move things within a warehouse from one point to other by use of affordable sensors and simple algorithms
+
+![Warehouse Robot Image](images/Projects/warehouse_robot_initial.png)
+
+Video can be found [Part1](https://www.youtube.com/watch?v=I7Rh3mHooCE) 
+
+----
+
+
+## Self Driving Car: Project DLIVE IIT Delhi
+
+As part of DLIVE team at IIT Delhi building a self driving car from mahindra e2o I Worked on mapping, localization and control along with overall planning of building self driving car with a Mahindra e2o at IIT Delhi
+
+----
+
 
 ## Turtlebot Simulation in gazebo
 
