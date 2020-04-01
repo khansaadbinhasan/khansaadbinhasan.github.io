@@ -6,7 +6,7 @@ For my final year project, I am working on building a warehouse robot that can a
 
 ![Warehouse Robot Image](images/Projects/warehouse_robot_initial.png)
 
-Video can be found [Part1](https://www.youtube.com/watch?v=I7Rh3mHooCE) 
+Video can be found [Part1](https://www.youtube.com/watch?v=I7Rh3mHooCE), [Part2](https://www.youtube.com/watch?v=zb66srnUcag) 
 
 ----
 
