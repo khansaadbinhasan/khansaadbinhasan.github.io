@@ -45,3 +45,24 @@ These are the results:
 
 ![image1](images/Projects/Result_image1.png)
 ![image2](images/Projects/Result_image2.png)
+
+---
+
+## Autonomous Underwater Vehicle
+
+Built A Localisation System for an Autonomous Underwater Vehicle for participating in Singapore AUV Challenge.
+
+## Other Projects
+
+I regularly follow youtube tutorials to build interesting projects:
+> Bipedal Robot From Open AI Gym using DDPG Algorithm
+
+![Bipedal Robot](images/Projects/bipedal.png)
+
+Video can be found [here](https://www.youtube.com/watch?v=CqSfSTgtQ9U)
+
+> Moving Cube with openGL
+
+![Moving Cube](images/Projects/movingCube.png)
+
+Video can be found [here](https://www.youtube.com/watch?v=0-QsvuVvP-4)
