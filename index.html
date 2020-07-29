@@ -1,127 +1,471 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-<div class="posts">
+<!-- <script async src="https://cse.google.com/cse.js?cx=018093107840923305949:a4eyrwxua-c"></script> -->
 
-	<!-- <script async src="https://cse.google.com/cse.js?cx=018093107840923305949:a4eyrwxua-c"></script>
-	<div class="gcse-searchbox-only"></div>
- -->
-	
-	<blockquote class="embedly-card">
-		<h4>
-			<a href="https://khansaadbinhasan.github.io/Understanding-Quantum-Computers/">Understanding Quantum Computers</a>
-		</h4>
-
-	   	<p>The hunger for computation power is growing every day as we seek to explore uncharted domains and to increase the sphere of human influence from subatomic particles to distant planets. Quantum Computers may be the answer to some of these needs.</p>
-
-	</blockquote>
-
-	<br><br>
-
-
-	<div class="iframely-embed">
-		<div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;">
-			<a href="https://khansaadbinhasan.blogspot.com/2020/05/parallel-programming-multiprocessing-in.html" data-iframely-url="//cdn.iframe.ly/YRFanEq"></a>
-		</div>
-	</div>
-
-	<br><br>
-
-	<div class="iframely-embed">
-		<div class="iframely-responsive" style="padding-bottom: 75%; padding-top: 120px;">
-			<a href="https://towardsdatascience.com/what-why-and-how-of-ros-b2f5ea8be0f3" data-iframely-url="//cdn.iframe.ly/3405994"></a>
-		</div>
-	</div>
-
-	<br><br>
-
-	<div class="iframely-embed">
-		<div class="iframely-responsive" style="padding-bottom: 40%; padding-top: 120px;">
-		<a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd" data-iframely-url="//cdn.iframe.ly/Re9WZZW"></a>
-		</div>
-	</div>
-
-	<br><br>
-
-	<div class="iframely-embed">
-		<div class="iframely-responsive" style="padding-bottom: 61.7241%; padding-top: 120px;">
-			<a href="https://towardsdatascience.com/super-computing-168be247335b" data-iframely-url="//cdn.iframe.ly/oZ0xlGQ"></a>
-		</div>
-	</div>
-
-	<br><br>
-
-	<div class="iframely-embed">
-		<div class="iframely-responsive" style="padding-bottom: 56.25%; padding-top: 120px;">
-			<a href="https://towardsdatascience.com/diving-into-automated-api-tests-e08510c72e7" data-iframely-url="//cdn.iframe.ly/z8Laz2T"></a>
-		</div>
-	</div>
-
-
-
-
-<!-- 	<blockquote class="embedly-card">
-		<h4>
-			<a href="https://khansaadbinhasan.blogspot.com/2020/05/parallel-programming-multiprocessing-in.html">Parallel Programming: MultiProcessing in Python</a>
-		</h4>
-
-		<p>Most of the breakthroughs in modern science have been linked with the increase in processing capacity especially massively parallel systems. In this blog we will dive into the working of algorithms that are used to achieve this.</p>
-
-	</blockquote>
- -->
-
-<!-- 	<blockquote class="embedly-card">
-		<h4>
-			<a href="https://towardsdatascience.com/what-why-and-how-of-ros-b2f5ea8be0f3">What, Why and How of ROS</a>
-		</h4>
-
-		<p>Humans have always been fascinated by Robots, Be it the pooping duck, Leonardo’s Mechanical Lion or the Turk. We have always tried to build things that resembles us or natural beings around us.</p>
-
-	</blockquote> -->
-
-<!-- Removed since it was not very quality blog. Only keep best quality blog here -->
-<!-- 
-	<blockquote class="embedly-card">
-		<h4>
-			<a href="https://towardsdatascience.com/super-computing-168be247335b">Super Computing</a>
-		</h4>
-
-		<p>The need for more and more powerful computers is growing every day, as our civilization progresses. The technology and science are progressing faster. This has been made possible by increasing computation power. And Supercomputers are as powerful as computers get.</p>
-
-	</blockquote>	
-
- -->
-<!-- 
-	<blockquote class="embedly-card">
-		<h4>
-			<a href="https://khansaadbinhasan.github.io/Understanding-Quantum-Computers/">Understanding Quantum Computers</a>
-		</h4>
-
-	   	<p>The hunger for computation power is growing every day as we seek to explore uncharted domains and to increase the sphere of human influence from subatomic particles to distant planets. Quantum Computers may be the answer to some of these needs.</p>
-
-	</blockquote> -->
-
-
-<!-- 	<blockquote class="embedly-card">
-		<h4>
-			<a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd">Stock Prediction Using Twitter</a>
-		</h4>
-
-		<p>Many economist have argued that the stock market is random because it is governed by random events, this is suggested in Efficient Market Hypothesis and Random Walk Theory. But is it really?</p>
-
-	</blockquote>
+<!-- {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
  -->
 
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
 
-	<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-	<script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#blogs">Blogs</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+
+<!--         <br><br><br>
+        <div class="gcse-searchbox-only"></div>
+ -->
+        <div id="lead-content">
+            <h1>Khan Saad Bin Hasan</h1>
+            <!-- <h2>Software Engineer</h2> -->
+            <a href="https://docs.google.com/document/d/1AwB8Mrt4T4IT_5uf6HyuTF-HAaOu2CQrz0uqJmqnYYo/edit?usp=sharing" class="btn-rounded-white" target="_blank">View Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am interested in Robotics, Artificial Intelligence, Computer Graphics, Simulations, Virtual Reality and Networking Concepts. During my undergrad degree, I have worked with a good number of tools and technologies and a variety of people to solve real world problems. I have built autonomous vehicles, Image Processing tools and Sentiment Analysis tools. I also have an interest in writing in general and write technical blogs about the things I learn.
+
+                        Since I have worked on big projects like Autonomous Underwater Vehicles and Driverless Cars and participated in high-pressure competitions like Singapore AUV Challenge, I am comfortable with working on big projects and in large teams. Also, owing to my wide range of skills and experience with many new technologies I am a good fit for projects with small teams.
+
+                        Currently, I am working toward solving the complex problem of “self-driving cars” using standard robotic tools, advanced simulators and computer vision. I also like to document my work in the form of <a href="https://medium.com/@khansaadbinhasan"> blogs </a> and <a href="https://www.youtube.com/channel/UCudVNfZNUhH4oWyFcB4I0gg">videos</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            
+            <div data-date="September 2017 – March 2018">
+                <h3>AUV ZHCET</h3>
+                <h4>Software Designer and Developer</h4>
+                <p>
+                    Club formed by students enthusiastic about Autonomous Underwater Vehicles to build AUVs and compete against top colleges 
+                </p>
+            </div>
+
+            <div data-date="June 2019 – August 2019">
+                <h3>IIT Delhi</h3>
+                <h4>Research Intern</h4>
+                <p>
+                    Worked on mapping, localization and control along with overall planning of building self driving car with a Mahindra e2o at IIT Delhi. 
+                </p>
+            </div>
+
+            <div data-date="January 2019 – Present">
+                <h3>khansaadbinhasan.github.io</h3>
+                <h4>Content Creator</h4>
+                <p>
+                    Writing Blogs on different topics, making youtube videos etc.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="education-block">
+            <h3>Aligarh Muslim University</h3>
+            <span class="education-date">Aug 2016 - Aug 2020</span>
+            <h4>Bachelor of Technology in Computer Engineering</h4>
+            <p> 
+                Have been an Integral Part of Several Organizations, Participated in several competitions , Working on projects with Professors and peers. 
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Aligarh Muslim University</h3>
+            <span class="education-date">Aug 2012 - Aug 2016</span>
+            <h4>High School</h4>
+            <p>
+                 Participated in class and received good reviews from teachers and fellow students. Helped other students in Mathematics and Physics. Received full marks in Mathematics
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+     <div id="blogs" class="background-alt">
+        <center><h2 class="heading">Blogs</h2></center>
+
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Blogs/multitasking.jpg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Parallel Programming: MultiProcessing in Python</h3>
+                        <p>
+                            Most of the breakthroughs in modern science have been linked with the increase in processing capacity especially massively parallel systems. In this blog we will dive into the working of algorithms that are used to achieve this.
+                        </p>
+                        <a href="https://khansaadbinhasan.blogspot.com/2020/05/parallel-programming-multiprocessing-in.html">Read More</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Blogs/the turk.jpg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>What, Why and How of ROS</h3>
+                        <p>
+                            Humans have always been fascinated by Robots, Be it the pooping duck, Leonardo’s Mechanical Lion or the Turk. We have always tried to build things that resembles us or natural beings around us.
+                        </p>
+                        <a href="https://towardsdatascience.com/what-why-and-how-of-ros-b2f5ea8be0f3">Read More</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Blogs/Supercomputer.jpg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Super Computing</h3>
+                        <p>
+                            The need for more and more powerful computers is growing every day, as our civilization progresses. The technology and science are progressing faster. This has been made possible by increasing computation power. And Supercomputers are as powerful as computers get.
+                        </p>
+                        <a href="https://towardsdatascience.com/super-computing-168be247335b">Read More</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/QuantumBlogs/Bombe.jpg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Understanding Quantum Computers</h3>
+                        <p>
+                            The hunger for computation power is growing every day as we seek to explore uncharted domains and to increase the sphere of human influence from subatomic particles to distant planets. Quantum Computers may be the answer to some of these needs.
+                        </p>
+                        <a href="https://khansaadbinhasan.github.io/Understanding-Quantum-Computers">Read More</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Blogs/stonks.png" width="300" height="200" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Stock Prediction Using Twitter</h3>
+                        <p>
+                            Many economist have argued that the stock market is random because it is governed by random events, this is suggested in Efficient Market Hypothesis and Random Walk Theory. But is it really?
+                        </p>
+                        <a href="https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd">Read More</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Blogs/API_blog_photo.jpg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Diving Into Automated API Tests</h3>
+                        <p>
+                            What comes to mind when thinking of automation? Robots making robots, large factories producing products, vehicles driving themselves, or maybe some other thing far into the future? Well, automation is already far more than this.
+                        </p>
+                        <a href="https://towardsdatascience.com/diving-into-automated-api-tests-e08510c72e7">Read More</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
 
 
-	  {% if site.google_analytics and jekyll.environment == 'production' %}
-		{% include analytics.html %}
-	  {% endif %}
 
-</div>
+
+    <div id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/warehouse_robot_initial.png" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Autonomous Warehouse Robot</h3>
+                        <p>
+                            For my final year project, I am working on building a warehouse robot that can autonomously move things within a warehouse from one point to other by use of affordable sensors and simple algorithms
+                        </p>
+                        <a href="https://github.com/khansaadbinhasan/Major-Project">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/dlive.jpg" width="300" height="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Self Driving Car: Project DLIVE IIT Delhi</h3>
+                        <p>
+                            As part of DLIVE team at IIT Delhi building a self driving car from mahindra e2o I Worked on mapping, localization and control along with overall planning of building self driving car with a Mahindra e2o at IIT Delhi
+                        </p>
+                        <a href="https://www.facebook.com/iitdlivecar/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/gazebo_turtle.png" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Turtlebot Simulation in gazebo</h3>
+                        <p>
+                            Wrote a ros node to control the movement of turtlebot so as to reach from current starting point to the other end of maze using LaserScan data moving turtlebot in the direction of farthest obstacle in the world.
+                        </p>
+                        <a href="https://github.com/khansaadbinhasan/TurtleMover">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/Accenture.png" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Stock Prediction Using Twitter</h3>
+                        <p>
+                            As part of my minor project, built a stock prediction model. The model showed that the stock market and sentiment from twitter data are correlated.
+                        </p>
+                        <a href="https://github.com/khansaadbinhasan/Stock-Prediction">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/Result_image2.png" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Aruco Marker Detection using OpenCV</h3>
+                        <p>
+                            As part of a competition, I made an aruco marker detection system, the purpose of this was to give values of angles to aruco markers from the horizontal
+                        </p>
+                        <a href="https://github.com/khansaadbinhasan/Aruco-Detection">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/auv.jpg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Autonomous Underwater Vehicle</h3>
+                        <p>
+                            Built A Localisation System for an Autonomous Underwater Vehicle for participating in Singapore AUV Challenge.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=pCG3cxiPsW0">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Projects/bipedal.png" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Other Projects</h3>
+                        <p>
+                            I follow youtube tutorials to build interesting projects- Bipedal Robot From Open AI Gym using DDPG Algorithm, Moving Cube with openGL, Simple Cube game in Unity, Udacity Self Driving car simulator etc.
+                        </p>
+                        <a href="https://youtube.com/channel/UCudVNfZNUhH4oWyFcB4I0gg">View Projects</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Tensorflow</li>
+            <li>Keras</li>
+            <li>CUDA</li>
+            <li>Python</li>
+            <li>MATLAB</li>
+            <li>C/C++</li>
+            <li>Robot Operating System</li>
+            <li>Robot Simulation using Gazebo</li>
+            <li>Arduino</li>
+            <li>Raspberry Pi</li>
+            <li>Linux</li>
+            <li>Technical Writing</li>
+            <li>Content Creation</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/khansaadbinhasan@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 YOUR NAME
+                    </p>
+                </div> -->
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://medium.com/@khansaadbinhasan" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/khansaadbinhasan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com//users/8487208/khan-saad-bin-hasan" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/khan-saad-bin-hasan" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com/channel/UCudVNfZNUhH4oWyFcB4I0gg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/KhanSaadBinHas1" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/epiphanetical_sayings/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
