@@ -455,16 +455,16 @@
                     </ul>
                 </div>
             </div>
+
+            {% if site.google_analytics and jekyll.environment == 'production' %}
+                {% include analytics.html %}
+            {% endif %}
         </div>
     </footer>
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-
-    <!-- {% if site.google_analytics and jekyll.environment == 'production' %} -->
-        {% include analytics.html %}
-    <!-- {% endif %} -->
 
 
 </body>
