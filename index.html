@@ -3,11 +3,6 @@
 
 <!-- <script async src="https://cse.google.com/cse.js?cx=018093107840923305949:a4eyrwxua-c"></script> -->
 
-{% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
-{% endif %}
-
-
 
 <head>
     <meta charset="utf-8">
@@ -466,6 +461,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
+
+
 </body>
 
 </html>
