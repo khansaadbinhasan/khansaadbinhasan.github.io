@@ -39,6 +39,16 @@ Video can be found [here](https://www.youtube.com/watch?v=aV1GmPjS0P4)
 
 ## Stock Prediction Using Twitter
 
+
+<div class="iframely-embed">
+
+	<div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">
+		<a href="https://github.com/khansaadbinhasan/Stock-Prediction" data-iframely-url="//cdn.iframe.ly/keW8hsa"></a>
+	</div>
+
+</div>
+
+<!-- 
 <blockquote class="embedly-card">
 
 	<h4>
@@ -48,7 +58,7 @@ Video can be found [here](https://www.youtube.com/watch?v=aV1GmPjS0P4)
 	<p>This model makes a plot between Z-Scores of DJIA & Twitter Sentiment Polarity and Date, Two plots are made on same figure to get an idea of the correlation. Historical DJIA data is used for getting Stock market Z-Scores and textblob is used for Twitter Sentiment Analysis.</p>
 
 </blockquote>
-
+ -->
 
 As part of my minor project, built a stock prediction model. The model correlated the stock market and sentiment from twitter data. The code can be found [here](https://github.com/khansaadbinhasan/Stock-Prediction) and the blog [here](https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd)
 
@@ -88,4 +98,5 @@ Video can be found [here](https://www.youtube.com/watch?v=0-QsvuVvP-4)
 
 
 
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+<!-- <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> -->
+<script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
