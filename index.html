@@ -77,6 +77,11 @@
     <!-- End #lead -->
 
     <div id="about">
+        
+        {% if site.google_analytics and jekyll.environment == 'production' %}
+            {% include analytics.html %}
+        {% endif %}
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -455,10 +460,6 @@
                     </ul>
                 </div>
             </div>
-
-            {% if site.google_analytics and jekyll.environment == 'production' %}
-                {% include analytics.html %}
-            {% endif %}
         </div>
     </footer>
     <!-- End footer -->
