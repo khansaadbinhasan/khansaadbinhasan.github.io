@@ -41,6 +41,8 @@ Video can be found [here](https://www.youtube.com/watch?v=aV1GmPjS0P4)
 
 As part of my minor project, built a stock prediction model. The model correlated the stock market and sentiment from twitter data.
 
+![Accenture](images/Projects/Accenture.png)
+
 <div class="iframely-embed">
 
 	<div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">
@@ -49,7 +51,6 @@ As part of my minor project, built a stock prediction model. The model correlate
 
 </div>
 
-<!-- ![Accenture](images/Projects/Accenture.png) -->
 
 ----
 
