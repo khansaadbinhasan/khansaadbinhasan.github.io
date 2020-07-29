@@ -42,14 +42,15 @@ Video can be found [here](https://www.youtube.com/watch?v=aV1GmPjS0P4)
 
 <div class="iframely-embed">
 
+	<p>As part of my minor project, built a stock prediction model. The model correlated the stock market and sentiment from twitter data.</p>
+
 	<div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">
 		<a href="https://github.com/khansaadbinhasan/Stock-Prediction" data-iframely-url="//cdn.iframe.ly/keW8hsa"></a>
-		<p>As part of my minor project, built a stock prediction model. The model correlated the stock market and sentiment from twitter data.</p>
 	</div>
 
 </div>
 
-![Accenture](images/Projects/Accenture.png)
+<!-- ![Accenture](images/Projects/Accenture.png) -->
 
 ----
 
