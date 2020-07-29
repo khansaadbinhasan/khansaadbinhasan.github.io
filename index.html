@@ -3,6 +3,12 @@ layout: default
 ---
 
 <div class="posts">
+	<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+		<input name="sitesearch" type="hidden" value="khansaadbinhasan.github.io">
+		<input autocomplete="on" class="form-control search" name="q" placeholder="Search in khansaadbinhasan.github.io" required="required"  type="text">
+		<button class="button" type="submit">Search</button>
+	</form>
+
 
 	<blockquote class="embedly-card">
 		<h4>
@@ -114,12 +120,6 @@ layout: default
 
 	<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 	<script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-
-	<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
-	<input name="sitesearch" type="hidden" value="example.com">
-	<input autocomplete="on" class="form-control search" name="q" placeholder="Search in example.com" required="required"  type="text">
-	<button class="button" type="submit">Search</button>
-	</form>
 
 
 	  {% if site.google_analytics and jekyll.environment == 'production' %}
