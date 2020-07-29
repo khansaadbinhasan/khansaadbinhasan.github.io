@@ -77,11 +77,14 @@
     <!-- End #lead -->
 
     <div id="about">
-        
-        {% if site.google_analytics and jekyll.environment == 'production' %}
-            {% include analytics.html %}
-        {% endif %}
-        
+
+        <script type="text/javascript">
+            if site.google_analytics and jekyll.environment == 'production' 
+             include analytics.html 
+            endif 
+        </script>
+            
+
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
